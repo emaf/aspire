@@ -39,6 +39,7 @@
          RuntimeIdentifiers list so clipack can pack one RID-specific tool package at a time
          using RuntimeIdentifier and PreBuiltCliBinaryPath. -->
     <RuntimeIdentifiers></RuntimeIdentifiers>
+    <PreBuiltCliBinaryPath>$(OutputPath)$(AssemblyName)$(TargetExt)</PreBuiltCliBinaryPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(PreBuiltCliBinaryPath)' != '' and '$(IsCliToolProject)' == 'true'">

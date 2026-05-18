@@ -1,0 +1,50 @@
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=Aspire.Cli.win-x64.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Aspire.Cli.win-x64
+MaxSupportedLangVersion=14.0
+OutputPath=<PATH>../../artifacts/bin/Aspire.Cli.win-x64/Debug/net10.0/
+OutputType=Library
+ProjectAssetsFile=<PATH>../../artifacts/obj/Aspire.Cli.win-x64/project.assets.json
+RootNamespace=Aspire.Cli.win-x64
+TargetFramework=net10.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../artifacts/bin/Aspire.Cli.win-x64/Debug/net10.0/Aspire.Cli.win-x64.dll
+TargetRefPath=<PATH>../../artifacts/obj/Aspire.Cli.win-x64/Debug/net10.0/ref/Aspire.Cli.win-x64.dll
+TemporaryDependencyNodeTargetIdentifier=net10.0
+
+[sourceFiles]
+../../artifacts/obj/Aspire.Cli.win-x64/Debug/net10.0/
+ .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+ Aspire.Cli.win-x64.GlobalUsings.g.cs
+
+[analyzerReferences]
+../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/
+ Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+ Microsoft.CodeAnalysis.NetAnalyzers.dll
+../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/codestyle/cs/
+ Microsoft.CodeAnalysis.CodeStyle.dll
+ Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+ Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+ Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+
+[analyzerConfigFiles]
+../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_10_default.globalconfig
+
+[capabilities]
+NativeAOT
+Pack
+SupportsHotReload

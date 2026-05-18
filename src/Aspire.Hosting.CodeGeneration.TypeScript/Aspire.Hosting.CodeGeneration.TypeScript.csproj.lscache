@@ -1,0 +1,120 @@
+hash=ddf5b5a8ae11b1c672e6ecccb28fe26fb6934cc33340276803629640d7d0c23d
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=Aspire.Hosting.CodeGeneration.TypeScript.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Aspire.Hosting.CodeGeneration.TypeScript
+MaxSupportedLangVersion=12.0
+OutputType=Library
+ProjectAssetsFile=<PATH>../../artifacts/obj/Aspire.Hosting.CodeGeneration.TypeScript/project.assets.json
+RootNamespace=Aspire.Hosting.CodeGeneration.TypeScript
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../artifacts/bin/Aspire.Hosting.CodeGeneration.TypeScript/Debug/net8.0/Aspire.Hosting.CodeGeneration.TypeScript.dll
+TargetRefPath=<PATH>../../artifacts/obj/Aspire.Hosting.CodeGeneration.TypeScript/Debug/net8.0/ref/Aspire.Hosting.CodeGeneration.TypeScript.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,xUnit1051,NU1510,ASPIREATS001,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../artifacts/obj/Aspire.Hosting.CodeGeneration.TypeScript/Debug/net8.0/Aspire.Hosting.CodeGeneration.TypeScript.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../artifacts/obj/Aspire.Hosting.CodeGeneration.TypeScript/Debug/net8.0/Aspire.Hosting.CodeGeneration.TypeScript.dll
+/refout:<PATH>../../artifacts/obj/Aspire.Hosting.CodeGeneration.TypeScript/Debug/net8.0/refint/Aspire.Hosting.CodeGeneration.TypeScript.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../
+ ../artifacts/obj/Aspire.Hosting.CodeGeneration.TypeScript/Debug/net8.0/
+  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+  Aspire.Hosting.CodeGeneration.TypeScript.AssemblyInfo.cs
+  Aspire.Hosting.CodeGeneration.TypeScript.GlobalUsings.g.cs
+  Aspire.Hosting.CodeGeneration.TypeScript.InternalsVisibleTo.cs
+ Shared/
+  AppHostProfilePortGenerator.cs
+   @link=AppHostProfilePortGenerator.cs
+  NpmVersionHelper.cs
+   @link=NpmVersionHelper.cs
+AssemblyInfo.cs
+AtsTypeScriptCodeGenerator.cs
+TypeScriptLanguageSupport.cs
+
+[nugetFrameworkPacks]
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+../../artifacts/obj/Aspire.TypeSystem/Debug/net8.0/ref/Aspire.TypeSystem.dll
+<NUGET>/
+ microsoft.extensions.primitives/10.0.7/lib/net8.0/Microsoft.Extensions.Primitives.dll
+ semver/3.0.0/lib/net5.0/Semver.dll
+
+[sdkAnalyzerPacks]
+Microsoft.NET.ILLink.Tasks
+
+[analyzerReferences]
+../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+ artifacts/bin/Aspire.Hosting.Integration.Analyzers/Debug/netstandard2.0/Aspire.Hosting.Integration.Analyzers.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+ artifacts/obj/Aspire.Hosting.CodeGeneration.TypeScript/Debug/net8.0/Aspire.Hosting.CodeGeneration.TypeScript.GeneratedMSBuildEditorConfig.editorconfig
+ .editorconfig
+
+[projectReferences]
+../
+ Aspire.Hosting.Integration.Analyzers/Aspire.Hosting.Integration.Analyzers.csproj
+ Aspire.TypeSystem/Aspire.TypeSystem.csproj
+
+[capabilities]
+IsAotCompatible
+IsTrimmable
+NativeAOT
+Pack
+SupportsHotReload

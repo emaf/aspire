@@ -1,0 +1,142 @@
+hash=7d9ba196b523c5bfccfa1f80801f988f38bd72097188e68017be47fa123c767a
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=AspireMcpTools.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=AspireMcpTools
+MaxSupportedLangVersion=13.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../artifacts/obj/AspireMcpTools/project.assets.json
+RootNamespace=AspireMcpTools
+TargetFramework=net9.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../artifacts/bin/AspireMcpTools/Debug/net9.0/AspireMcpTools.dll
+TargetRefPath=<PATH>../../artifacts/obj/AspireMcpTools/Debug/net9.0/ref/AspireMcpTools.dll
+TemporaryDependencyNodeTargetIdentifier=net9.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,1591,xUnit1051,NU1510,ASPIREATS001,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:9
+/doc:<PATH>../../artifacts/obj/AspireMcpTools/Debug/net9.0/AspireMcpTools.xml
+/define:TRACE;DEBUG;NET;NET9_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../artifacts/obj/AspireMcpTools/Debug/net9.0/AspireMcpTools.dll
+/refout:<PATH>../../artifacts/obj/AspireMcpTools/Debug/net9.0/refint/AspireMcpTools.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../../artifacts/obj/AspireMcpTools/Debug/net9.0/
+ .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+ AspireMcpTools.AssemblyInfo.cs
+ AspireMcpTools.GlobalUsings.g.cs
+Program.cs
+
+[nugetFrameworkPacks]
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+<NUGET>/
+ microsoft.extensions.ai.abstractions/10.3.0/lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll
+ microsoft.extensions.caching.abstractions/10.0.3/lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.configuration.binder/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+ microsoft.extensions.configuration.commandline/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.CommandLine.dll
+ microsoft.extensions.configuration.environmentvariables/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+ microsoft.extensions.configuration.fileextensions/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+ microsoft.extensions.configuration.json/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.Json.dll
+ microsoft.extensions.configuration.usersecrets/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.UserSecrets.dll
+ microsoft.extensions.configuration/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection/10.0.7/lib/net9.0/Microsoft.Extensions.DependencyInjection.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.diagnostics/10.0.7/lib/net9.0/Microsoft.Extensions.Diagnostics.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.fileproviders.physical/10.0.7/lib/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
+ microsoft.extensions.filesystemglobbing/10.0.7/lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.hosting/10.0.7/lib/net9.0/Microsoft.Extensions.Hosting.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.logging.configuration/10.0.7/lib/net9.0/Microsoft.Extensions.Logging.Configuration.dll
+ microsoft.extensions.logging.console/10.0.7/lib/net9.0/Microsoft.Extensions.Logging.Console.dll
+ microsoft.extensions.logging.debug/10.0.7/lib/net9.0/Microsoft.Extensions.Logging.Debug.dll
+ microsoft.extensions.logging.eventlog/10.0.7/lib/net9.0/Microsoft.Extensions.Logging.EventLog.dll
+ microsoft.extensions.logging.eventsource/10.0.7/lib/net9.0/Microsoft.Extensions.Logging.EventSource.dll
+ microsoft.extensions.logging/10.0.7/lib/net9.0/Microsoft.Extensions.Logging.dll
+ microsoft.extensions.options.configurationextensions/10.0.7/lib/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+ microsoft.extensions.options/10.0.7/lib/net9.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net9.0/Microsoft.Extensions.Primitives.dll
+ modelcontextprotocol.core/1.0.0/lib/net9.0/ModelContextProtocol.Core.dll
+ modelcontextprotocol/1.0.0/lib/net9.0/ModelContextProtocol.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net9.0/System.Diagnostics.DiagnosticSource.dll
+ system.diagnostics.eventlog/10.0.7/lib/net9.0/System.Diagnostics.EventLog.dll
+ system.io.pipelines/10.0.7/lib/net9.0/System.IO.Pipelines.dll
+ system.net.serversentevents/10.0.3/lib/net9.0/System.Net.ServerSentEvents.dll
+ system.text.encodings.web/10.0.7/lib/net9.0/System.Text.Encodings.Web.dll
+ system.text.json/10.0.7/lib/net9.0/System.Text.Json.dll
+
+[analyzerReferences]
+../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+ analyzers/
+  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+  Microsoft.CodeAnalysis.NetAnalyzers.dll
+ codestyle/cs/
+  Microsoft.CodeAnalysis.CodeStyle.dll
+  Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+<NUGET>/
+ microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+ modelcontextprotocol.core/1.0.0/analyzers/dotnet/cs/ModelContextProtocol.Analyzers.dll
+ system.text.json/10.0.7/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
+ artifacts/obj/AspireMcpTools/Debug/net9.0/AspireMcpTools.GeneratedMSBuildEditorConfig.editorconfig
+ .editorconfig
+
+[projectReferences]
+
+[capabilities]
+CrossPlatformExecutable
+LocalUserSecrets
+NativeAOT
+Pack
+SupportsHotReload

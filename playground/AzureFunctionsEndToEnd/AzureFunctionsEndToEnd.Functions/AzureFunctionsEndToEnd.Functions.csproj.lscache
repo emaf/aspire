@@ -1,0 +1,235 @@
+hash=9e698f48f67200d2c0ac2b2fa7997cb3b4d764901a0c15378085a272ca16d31b
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=AzureFunctionsEndToEnd.Functions.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=AzureFunctionsEndToEnd.Functions
+MaxSupportedLangVersion=12.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../../artifacts/obj/AzureFunctionsEndToEnd.Functions/project.assets.json
+RootNamespace=AzureFunctionsEndToEnd.Functions
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../../artifacts/bin/AzureFunctionsEndToEnd.Functions/Debug/net8.0/AzureFunctionsEndToEnd.Functions.dll
+TargetRefPath=<PATH>../../../artifacts/obj/AzureFunctionsEndToEnd.Functions/Debug/net8.0/ref/AzureFunctionsEndToEnd.Functions.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,1591,xUnit1051,NU1510,ASPIREATS001,1573,1591,1712,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../../artifacts/obj/AzureFunctionsEndToEnd.Functions/Debug/net8.0/AzureFunctionsEndToEnd.Functions.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../../artifacts/obj/AzureFunctionsEndToEnd.Functions/Debug/net8.0/AzureFunctionsEndToEnd.Functions.dll
+/refout:<PATH>../../../artifacts/obj/AzureFunctionsEndToEnd.Functions/Debug/net8.0/refint/AzureFunctionsEndToEnd.Functions.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../../../artifacts/obj/AzureFunctionsEndToEnd.Functions/Debug/net8.0/
+ .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ AzureFunctionsEndToEnd.Functions.AssemblyInfo.cs
+ AzureFunctionsEndToEnd.Functions.GlobalUsings.g.cs
+MyAzureBlobTrigger.cs
+MyAzureQueueTrigger.cs
+MyCosmosDbTrigger.cs
+MyEventHubTrigger.cs
+MyHttpTrigger.cs
+MyServiceBusTrigger.cs
+Program.cs
+
+[nugetFrameworkPacks]
+Microsoft.AspNetCore.App.Ref
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+../../../artifacts/obj/
+ Aspire.Azure.Messaging.EventHubs/Debug/net8.0/ref/Aspire.Azure.Messaging.EventHubs.dll
+ Aspire.Azure.Messaging.ServiceBus/Debug/net8.0/ref/Aspire.Azure.Messaging.ServiceBus.dll
+ Aspire.Azure.Storage.Blobs/Debug/net8.0/ref/Aspire.Azure.Storage.Blobs.dll
+ Aspire.Azure.Storage.Queues/Debug/net8.0/ref/Aspire.Azure.Storage.Queues.dll
+ Playground.ServiceDefaults/Debug/net8.0/ref/Playground.ServiceDefaults.dll
+<NUGET>/
+ aspnetcore.healthchecks.applicationstatus/9.0.0/lib/net8.0/HealthChecks.ApplicationStatus.dll
+ aspnetcore.healthchecks.azure.messaging.eventhubs/9.0.0/lib/net8.0/HealthChecks.Azure.Messaging.EventHubs.dll
+ aspnetcore.healthchecks.azure.storage.blobs/9.0.0/lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll
+ aspnetcore.healthchecks.azure.storage.queues/9.0.0/lib/net8.0/HealthChecks.Azure.Storage.Queues.dll
+ aspnetcore.healthchecks.azureservicebus/9.0.0/lib/net8.0/HealthChecks.AzureServiceBus.dll
+ azure.core.amqp/1.3.1/lib/netstandard2.0/Azure.Core.Amqp.dll
+ azure.core/1.53.0/lib/net8.0/Azure.Core.dll
+ azure.identity/1.21.0/lib/net8.0/Azure.Identity.dll
+ azure.messaging.eventhubs.processor/5.12.2/lib/net8.0/Azure.Messaging.EventHubs.Processor.dll
+ azure.messaging.eventhubs/5.12.2/lib/net8.0/Azure.Messaging.EventHubs.dll
+ azure.messaging.servicebus/7.20.1/lib/net8.0/Azure.Messaging.ServiceBus.dll
+ azure.storage.blobs/12.26.0/lib/net8.0/Azure.Storage.Blobs.dll
+ azure.storage.common/12.25.0/lib/net8.0/Azure.Storage.Common.dll
+ azure.storage.queues/12.24.0/lib/net8.0/Azure.Storage.Queues.dll
+ google.protobuf/3.33.5/lib/net5.0/Google.Protobuf.dll
+ grpc.core.api/2.76.0/lib/netstandard2.1/Grpc.Core.Api.dll
+ grpc.net.client/2.76.0/lib/net8.0/Grpc.Net.Client.dll
+ grpc.net.clientfactory/2.76.0/lib/net8.0/Grpc.Net.ClientFactory.dll
+ grpc.net.common/2.76.0/lib/net8.0/Grpc.Net.Common.dll
+ microsoft.applicationinsights.dependencycollector/2.23.0/lib/netstandard2.0/Microsoft.AI.DependencyCollector.dll
+ microsoft.applicationinsights.eventcountercollector/2.23.0/lib/netstandard2.0/Microsoft.AI.EventCounterCollector.dll
+ microsoft.applicationinsights.perfcountercollector/2.23.0/lib/netstandard2.0/Microsoft.AI.PerfCounterCollector.dll
+ microsoft.applicationinsights.windowsserver.telemetrychannel/2.23.0/lib/netstandard2.0/Microsoft.AI.ServerTelemetryChannel.dll
+ microsoft.applicationinsights.windowsserver/2.23.0/lib/netstandard2.0/Microsoft.AI.WindowsServer.dll
+ microsoft.applicationinsights.workerservice/2.23.0/lib/netstandard2.0/Microsoft.ApplicationInsights.WorkerService.dll
+ microsoft.applicationinsights/2.23.0/lib/netstandard2.0/Microsoft.ApplicationInsights.dll
+ microsoft.azure.amqp/2.7.0/lib/net8.0/Microsoft.Azure.Amqp.dll
+ microsoft.azure.cosmos/3.54.0/lib/netstandard2.0/
+  Microsoft.Azure.Cosmos.Client.dll
+  Microsoft.Azure.Cosmos.Core.dll
+  Microsoft.Azure.Cosmos.Direct.dll
+  Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+ microsoft.azure.functions.worker.core/2.2.0/lib/net8.0/Microsoft.Azure.Functions.Worker.Core.dll
+ microsoft.azure.functions.worker.extensions.abstractions/1.3.0/lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Abstractions.dll
+ microsoft.azure.functions.worker.extensions.cosmosdb/4.14.0/lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.CosmosDB.dll
+ microsoft.azure.functions.worker.extensions.eventhubs/6.5.0/lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.EventHubs.dll
+ microsoft.azure.functions.worker.extensions.http.aspnetcore/2.1.0/lib/net8.0/Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore.dll
+ microsoft.azure.functions.worker.extensions.http/3.3.0/lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Http.dll
+ microsoft.azure.functions.worker.extensions.rpc/1.0.1/lib/net6.0/Microsoft.Azure.Functions.Worker.Extensions.Rpc.dll
+ microsoft.azure.functions.worker.extensions.servicebus/5.24.0/lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.ServiceBus.dll
+ microsoft.azure.functions.worker.extensions.storage.blobs/6.8.0/lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Storage.Blobs.dll
+ microsoft.azure.functions.worker.extensions.storage.queues/5.5.3/lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Storage.Queues.dll
+ microsoft.azure.functions.worker.grpc/2.2.0/lib/net8.0/Microsoft.Azure.Functions.Worker.Grpc.dll
+ microsoft.azure.functions.worker.opentelemetry/1.1.0-preview6/lib/netstandard2.0/Microsoft.Azure.Functions.Worker.OpenTelemetry.dll
+ microsoft.azure.functions.worker/2.2.0/lib/net8.0/Microsoft.Azure.Functions.Worker.dll
+ microsoft.bcl.asyncinterfaces/10.0.3/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
+ microsoft.bcl.hashcode/1.1.0/ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll
+ microsoft.extensions.ambientmetadata.application/10.5.0/lib/net8.0/Microsoft.Extensions.AmbientMetadata.Application.dll
+ microsoft.extensions.azure/1.13.1/lib/net8.0/Microsoft.Extensions.Azure.dll
+ microsoft.extensions.compliance.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.Compliance.Abstractions.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.configuration.binder/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+ microsoft.extensions.configuration/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection.autoactivation/10.5.0/lib/net8.0/Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.diagnostics.exceptionsummarization/10.5.0/lib/net8.0/Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.http.diagnostics/10.5.0/lib/net8.0/Microsoft.Extensions.Http.Diagnostics.dll
+ microsoft.extensions.http.resilience/10.5.0/lib/net8.0/Microsoft.Extensions.Http.Resilience.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.logging.applicationinsights/2.23.0/lib/netstandard2.0/Microsoft.Extensions.Logging.ApplicationInsights.dll
+ microsoft.extensions.options/10.0.7/lib/net8.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net8.0/Microsoft.Extensions.Primitives.dll
+ microsoft.extensions.resilience/10.5.0/lib/net8.0/Microsoft.Extensions.Resilience.dll
+ microsoft.extensions.servicediscovery.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+ microsoft.extensions.servicediscovery/10.5.0/lib/net8.0/Microsoft.Extensions.ServiceDiscovery.dll
+ microsoft.extensions.telemetry.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.Telemetry.Abstractions.dll
+ microsoft.extensions.telemetry/10.5.0/lib/net8.0/Microsoft.Extensions.Telemetry.dll
+ microsoft.identity.client.extensions.msal/4.83.1/lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+ microsoft.identity.client/4.83.1/lib/net8.0/Microsoft.Identity.Client.dll
+ microsoft.identitymodel.abstractions/8.14.0/lib/net8.0/Microsoft.IdentityModel.Abstractions.dll
+ microsoft.win32.systemevents/6.0.0/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+ newtonsoft.json/13.0.4/lib/net6.0/Newtonsoft.Json.dll
+ opentelemetry.api.providerbuilderextensions/1.15.3/lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll
+ opentelemetry.api/1.15.3/lib/net8.0/OpenTelemetry.Api.dll
+ opentelemetry.exporter.opentelemetryprotocol/1.15.3/lib/net8.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+ opentelemetry.extensions.hosting/1.15.3/lib/net8.0/OpenTelemetry.Extensions.Hosting.dll
+ opentelemetry.instrumentation.aspnetcore/1.15.2/lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll
+ opentelemetry.instrumentation.http/1.15.1/lib/net8.0/OpenTelemetry.Instrumentation.Http.dll
+ opentelemetry.instrumentation.runtime/1.15.1/lib/net8.0/OpenTelemetry.Instrumentation.Runtime.dll
+ opentelemetry/1.15.3/lib/net8.0/OpenTelemetry.dll
+ polly.core/8.6.5/lib/net8.0/Polly.Core.dll
+ polly.extensions/8.6.5/lib/net8.0/Polly.Extensions.dll
+ polly.ratelimiting/8.4.2/lib/net8.0/Polly.RateLimiting.dll
+ system.clientmodel/1.10.0/lib/net8.0/System.ClientModel.dll
+ system.configuration.configurationmanager/6.0.0/lib/net6.0/System.Configuration.ConfigurationManager.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net8.0/System.Diagnostics.DiagnosticSource.dll
+ system.diagnostics.performancecounter/6.0.0/lib/net6.0/System.Diagnostics.PerformanceCounter.dll
+ system.drawing.common/6.0.0/lib/net6.0/System.Drawing.Common.dll
+ system.io.hashing/10.0.3/lib/net8.0/System.IO.Hashing.dll
+ system.io.pipelines/10.0.7/lib/net8.0/System.IO.Pipelines.dll
+ system.memory.data/10.0.3/lib/net8.0/System.Memory.Data.dll
+ system.security.cryptography.protecteddata/6.0.0/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+ system.security.permissions/6.0.0/lib/net6.0/System.Security.Permissions.dll
+ system.text.encodings.web/10.0.7/lib/net8.0/System.Text.Encodings.Web.dll
+ system.text.json/10.0.7/lib/net8.0/System.Text.Json.dll
+ system.windows.extensions/6.0.0/lib/net6.0/System.Windows.Extensions.dll
+
+[analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+ analyzers/
+  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+  Microsoft.CodeAnalysis.NetAnalyzers.dll
+ codestyle/cs/
+  Microsoft.CodeAnalysis.CodeStyle.dll
+  Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+<NUGET>/
+ microsoft.azure.functions.worker.extensions.http.aspnetcore.analyzers/1.0.4/analyzers/dotnet/cs/Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore.Analyzers.dll
+ microsoft.azure.functions.worker.sdk.analyzers/1.2.2/analyzers/dotnet/cs/Microsoft.Azure.Functions.Worker.Sdk.Analyzers.dll
+ microsoft.azure.functions.worker.sdk.generators/1.3.5/analyzers/dotnet/cs/
+  Microsoft.Azure.Functions.Worker.Sdk.Generators.dll
+  Microsoft.Bcl.AsyncInterfaces.dll
+  System.Text.Encodings.Web.dll
+  System.Text.Json.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+ microsoft.extensions.telemetry.abstractions/10.5.0/analyzers/dotnet/cs/
+  Microsoft.Gen.Logging.dll
+  Microsoft.Gen.Metrics.dll
+ system.clientmodel/1.10.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
+ system.text.json/10.0.7/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ ../
+  .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+  artifacts/obj/AzureFunctionsEndToEnd.Functions/Debug/net8.0/AzureFunctionsEndToEnd.Functions.GeneratedMSBuildEditorConfig.editorconfig
+  .editorconfig
+ .editorconfig
+
+[projectReferences]
+../../
+ ../src/Components/
+  Aspire.Azure.Messaging.EventHubs/Aspire.Azure.Messaging.EventHubs.csproj
+  Aspire.Azure.Messaging.ServiceBus/Aspire.Azure.Messaging.ServiceBus.csproj
+  Aspire.Azure.Storage.Blobs/Aspire.Azure.Storage.Blobs.csproj
+  Aspire.Azure.Storage.Queues/Aspire.Azure.Storage.Queues.csproj
+ Playground.ServiceDefaults/Playground.ServiceDefaults.csproj
+
+[capabilities]
+AzureFunctions
+CrossPlatformExecutable
+NativeAOT
+Pack
+SupportsHotReload

@@ -1,0 +1,120 @@
+hash=c4fd67716b1744cace7cf25f07609f67bf3b91282fb65799db5b34ef555c8491
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=WaitForSandbox.Common.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=WaitForSandbox.Common
+MaxSupportedLangVersion=12.0
+OutputType=Library
+ProjectAssetsFile=<PATH>../../../artifacts/obj/WaitForSandbox.Common/project.assets.json
+RootNamespace=WaitForSandbox.Common
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../../artifacts/bin/WaitForSandbox.Common/Debug/net8.0/WaitForSandbox.Common.dll
+TargetRefPath=<PATH>../../../artifacts/obj/WaitForSandbox.Common/Debug/net8.0/ref/WaitForSandbox.Common.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,1591,xUnit1051,NU1510,ASPIREATS001,1573,1591,1712,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../../artifacts/obj/WaitForSandbox.Common/Debug/net8.0/WaitForSandbox.Common.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../../artifacts/obj/WaitForSandbox.Common/Debug/net8.0/WaitForSandbox.Common.dll
+/refout:<PATH>../../../artifacts/obj/WaitForSandbox.Common/Debug/net8.0/refint/WaitForSandbox.Common.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../../../artifacts/obj/WaitForSandbox.Common/Debug/net8.0/
+ .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ WaitForSandbox.Common.AssemblyInfo.cs
+ WaitForSandbox.Common.GlobalUsings.g.cs
+Entry.cs.cs
+MyDbContext.cs
+
+[nugetFrameworkPacks]
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+<NUGET>/
+ microsoft.entityframeworkcore.abstractions/8.0.11/lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+ microsoft.entityframeworkcore.relational/8.0.11/lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+ microsoft.entityframeworkcore/8.0.11/lib/net8.0/Microsoft.EntityFrameworkCore.dll
+ microsoft.extensions.caching.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+ microsoft.extensions.caching.memory/10.0.7/lib/net8.0/Microsoft.Extensions.Caching.Memory.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.logging/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.dll
+ microsoft.extensions.options/10.0.7/lib/net8.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net8.0/Microsoft.Extensions.Primitives.dll
+ npgsql.entityframeworkcore.postgresql/8.0.11/lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ npgsql/8.0.6/lib/net8.0/Npgsql.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net8.0/System.Diagnostics.DiagnosticSource.dll
+
+[analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+ analyzers/
+  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+  Microsoft.CodeAnalysis.NetAnalyzers.dll
+ codestyle/cs/
+  Microsoft.CodeAnalysis.CodeStyle.dll
+  Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+<NUGET>/
+ microsoft.entityframeworkcore.analyzers/8.0.11/analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll
+ microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ ../
+  .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+  artifacts/obj/WaitForSandbox.Common/Debug/net8.0/WaitForSandbox.Common.GeneratedMSBuildEditorConfig.editorconfig
+  .editorconfig
+ .editorconfig
+
+[projectReferences]
+
+[capabilities]
+NativeAOT
+Pack
+SupportsHotReload

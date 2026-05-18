@@ -48,6 +48,16 @@ SET DOTNET_ROOT(x86)=%~dp0.dotnet\x86
 :: This tells .NET Core not to go looking for .NET Core in other places
 SET DOTNET_MULTILEVEL_LOOKUP=0
 
+:: This tells MSBuild SDK resolver where to find NuGet SDK packages for design-time builds
+SET MSBuildSDKsPath=%USERPROFILE%\.nuget\packages\
+
+IF NOT DEFINED CSDEVKIT_SERVER_PATH SET "CSDEVKIT_SERVER_PATH=C:\code\vs-green.worktrees\agents-otel-instrumentation-performance-review\server\bin\CSDevKit\Release\win-x64\aot-publish\CSDevKit"
+
+IF NOT DEFINED VSCODE_EXTENSION_DEV_PATH SET "VSCODE_EXTENSION_DEV_PATH=C:\code\vs-green.worktrees\agents-otel-instrumentation-performance-review"
+
+SET _extDevPath=
+IF DEFINED VSCODE_EXTENSION_DEV_PATH SET "_extDevPath=--extensionDevelopmentPath=%VSCODE_EXTENSION_DEV_PATH%"
+
 :: Put our local dotnet.exe on PATH first so Visual Studio knows which one to use
 SET PATH=%DOTNET_ROOT%;%PATH%
 
@@ -57,9 +67,10 @@ IF NOT EXIST "%DOTNET_ROOT%\dotnet.exe" (
     exit /b 1
 )
 
+
 IF ["%~1"] == [""] GOTO noargs
-"%vscode%" %*
-exit /b 1
+"%vscode%" %_extDevPath% %*
+exit /b 0
 
 :noargs
-"%vscode%" "."
+"%vscode%" %_extDevPath% "."

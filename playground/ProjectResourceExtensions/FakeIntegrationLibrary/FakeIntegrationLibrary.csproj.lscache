@@ -1,0 +1,113 @@
+hash=03d581d5e3cb2ee0bd77206c859cacc2c7b4336b2106691202e878f51befae6b
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=FakeIntegrationLibrary.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=FakeIntegrationLibrary
+MaxSupportedLangVersion=12.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../../artifacts/obj/FakeIntegrationLibrary/project.assets.json
+RootNamespace=FakeIntegrationLibrary
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../../artifacts/bin/FakeIntegrationLibrary/Debug/net8.0/FakeIntegrationLibrary.dll
+TargetRefPath=<PATH>../../../artifacts/obj/FakeIntegrationLibrary/Debug/net8.0/ref/FakeIntegrationLibrary.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,1591,xUnit1051,NU1510,ASPIREATS001,1573,1591,1712,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../../artifacts/obj/FakeIntegrationLibrary/Debug/net8.0/FakeIntegrationLibrary.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../../artifacts/obj/FakeIntegrationLibrary/Debug/net8.0/FakeIntegrationLibrary.dll
+/refout:<PATH>../../../artifacts/obj/FakeIntegrationLibrary/Debug/net8.0/refint/FakeIntegrationLibrary.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../../../artifacts/obj/FakeIntegrationLibrary/Debug/net8.0/
+ .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ FakeIntegrationLibrary.AssemblyInfo.cs
+ FakeIntegrationLibrary.GlobalUsings.g.cs
+Program.cs
+
+[nugetFrameworkPacks]
+Microsoft.AspNetCore.App.Ref
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+
+[analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/
+ Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+ Microsoft.NET.Sdk.Razor/source-generators/
+  Microsoft.AspNetCore.Razor.Utilities.Shared.dll
+  Microsoft.CodeAnalysis.Razor.Compiler.dll
+  Microsoft.Extensions.ObjectPool.dll
+ Microsoft.NET.Sdk.Web/analyzers/cs/
+  Microsoft.AspNetCore.Analyzers.dll
+  Microsoft.AspNetCore.Mvc.Analyzers.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ ../
+  .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+  artifacts/obj/FakeIntegrationLibrary/Debug/net8.0/FakeIntegrationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+  .editorconfig
+ .editorconfig
+
+[projectReferences]
+
+[capabilities]
+AspNetCore
+CrossPlatformExecutable
+DotNetCoreRazor
+DotNetCoreWeb
+NativeAOT
+Pack
+SupportsHotReload
+Web

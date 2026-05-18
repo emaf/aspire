@@ -1,0 +1,163 @@
+hash=9d78918710160d67060f3bf4562893390e5e8b4252e6cc24e5b78b89c94d872a
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=ConfigurationSchemaGenerator.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=ConfigurationSchemaGenerator
+MaxSupportedLangVersion=12.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../../artifacts/obj/ConfigurationSchemaGenerator/project.assets.json
+RootNamespace=ConfigurationSchemaGenerator
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../../artifacts/bin/ConfigurationSchemaGenerator/Debug/net8.0/ConfigurationSchemaGenerator.dll
+TargetRefPath=<PATH>../../../artifacts/obj/ConfigurationSchemaGenerator/Debug/net8.0/ref/ConfigurationSchemaGenerator.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,xUnit1051,NU1510,ASPIREATS001,CS1570,CS1591,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../../artifacts/obj/ConfigurationSchemaGenerator/Debug/net8.0/ConfigurationSchemaGenerator.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:annotations
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../../artifacts/obj/ConfigurationSchemaGenerator/Debug/net8.0/ConfigurationSchemaGenerator.dll
+/refout:<PATH>../../../artifacts/obj/ConfigurationSchemaGenerator/Debug/net8.0/refint/ConfigurationSchemaGenerator.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../../../artifacts/obj/ConfigurationSchemaGenerator/Debug/net8.0/
+ .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ ConfigurationSchemaGenerator.AssemblyInfo.cs
+ ConfigurationSchemaGenerator.GlobalUsings.g.cs
+ ConfigurationSchemaGenerator.InternalsVisibleTo.cs
+RuntimeSource/
+ Configuration.Binder/
+  Emitter/ExceptionMessages.cs
+  Parser/
+   BinderInvocation.cs
+   ConfigurationBinder.cs
+   Extensions.cs
+   KnownTypeSymbols.cs
+   OptionsBuilderConfigurationExtensions.cs
+   OptionsConfigurationServiceCollectionExtensions.cs
+  Specs/
+   Members/
+    MemberSpec.cs
+    ParameterSpec.cs
+    PropertySpec.cs
+   Types/
+    CollectionSpec.cs
+    ObjectSpec.cs
+    SimpleTypeSpec.cs
+    TypeSpec.cs
+   BindingHelperInfo.cs
+   InterceptorInfo.cs
+   MethodsToGen.cs
+   SourceGenerationSpec.cs
+   TypeIndex.cs
+  ConfigurationBindingGenerator.Parser.cs
+ Roslyn/
+  DiagnosticDescriptorHelper.cs
+  GetBestTypeByMetadataName.cs
+ SourceGenerators/
+  CSharpSyntaxUtilities.cs
+  DiagnosticInfo.cs
+  ImmutableEquatableArray.cs
+  TypeModelHelper.cs
+  TypeRef.cs
+ HashHelpers.cs
+ConfigSchemaEmitter.cs
+ConfigSchemaGenerator.cs
+ConfigurationBindingGenerator.ForSchemaGeneration.cs
+DiagnosticDescriptors.cs
+Program.cs
+RootGenerateCommand.cs
+SchemaGenerationSpec.cs
+
+[nugetFrameworkPacks]
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+<NUGET>/
+ microsoft.codeanalysis.common/4.14.0/lib/net8.0/Microsoft.CodeAnalysis.dll
+ microsoft.codeanalysis.csharp.workspaces/4.14.0/lib/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+ microsoft.codeanalysis.csharp/4.14.0/lib/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+ microsoft.codeanalysis.workspaces.common/4.14.0/lib/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+ system.collections.immutable/9.0.0/lib/net8.0/System.Collections.Immutable.dll
+ system.commandline/2.0.0/lib/net8.0/System.CommandLine.dll
+ system.composition.attributedmodel/9.0.0/lib/net8.0/System.Composition.AttributedModel.dll
+ system.composition.convention/9.0.0/lib/net8.0/System.Composition.Convention.dll
+ system.composition.hosting/9.0.0/lib/net8.0/System.Composition.Hosting.dll
+ system.composition.runtime/9.0.0/lib/net8.0/System.Composition.Runtime.dll
+ system.composition.typedparts/9.0.0/lib/net8.0/System.Composition.TypedParts.dll
+ system.io.pipelines/10.0.1/lib/net8.0/System.IO.Pipelines.dll
+ system.reflection.metadata/9.0.0/lib/net8.0/System.Reflection.Metadata.dll
+ system.text.encodings.web/10.0.1/lib/net8.0/System.Text.Encodings.Web.dll
+ system.text.json/10.0.1/lib/net8.0/System.Text.Json.dll
+
+[analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+ analyzers/
+  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+  Microsoft.CodeAnalysis.NetAnalyzers.dll
+ codestyle/cs/
+  Microsoft.CodeAnalysis.CodeStyle.dll
+  Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+<NUGET>/
+ microsoft.codeanalysis.analyzers/3.11.0/analyzers/dotnet/cs/
+  Microsoft.CodeAnalysis.Analyzers.dll
+  Microsoft.CodeAnalysis.CSharp.Analyzers.dll
+ system.text.json/10.0.1/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+ artifacts/obj/ConfigurationSchemaGenerator/Debug/net8.0/ConfigurationSchemaGenerator.GeneratedMSBuildEditorConfig.editorconfig
+ .editorconfig
+RuntimeSource/.editorconfig
+
+[projectReferences]
+
+[capabilities]
+CrossPlatformExecutable
+NativeAOT
+Pack
+SupportsHotReload

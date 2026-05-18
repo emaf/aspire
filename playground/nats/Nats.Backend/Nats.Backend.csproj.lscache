@@ -1,0 +1,172 @@
+hash=6569d7ec25f7f5a0e3ad4297ea191e3717ab14cbd5eaa1074a08329c1bdd082d
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=Nats.Backend.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Nats.Backend
+MaxSupportedLangVersion=12.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../../artifacts/obj/Nats.Backend/project.assets.json
+RootNamespace=Nats.Backend
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../../artifacts/bin/Nats.Backend/Debug/net8.0/Nats.Backend.dll
+TargetRefPath=<PATH>../../../artifacts/obj/Nats.Backend/Debug/net8.0/ref/Nats.Backend.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,1591,xUnit1051,NU1510,ASPIREATS001,1573,1591,1712,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../../artifacts/obj/Nats.Backend/Debug/net8.0/Nats.Backend.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../../artifacts/obj/Nats.Backend/Debug/net8.0/Nats.Backend.dll
+/refout:<PATH>../../../artifacts/obj/Nats.Backend/Debug/net8.0/refint/Nats.Backend.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../../../artifacts/obj/Nats.Backend/Debug/net8.0/
+ .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ Nats.Backend.AssemblyInfo.cs
+ Nats.Backend.GlobalUsings.g.cs
+Program.cs
+
+[nugetFrameworkPacks]
+Microsoft.AspNetCore.App.Ref
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+../../../artifacts/obj/
+ Aspire.NATS.Net/Debug/net8.0/ref/Aspire.NATS.Net.dll
+ Nats.Common/Debug/net8.0/ref/Nats.Common.dll
+ Playground.ServiceDefaults/Debug/net8.0/ref/Playground.ServiceDefaults.dll
+<NUGET>/
+ aspnetcore.healthchecks.applicationstatus/9.0.0/lib/net8.0/HealthChecks.ApplicationStatus.dll
+ microsoft.extensions.ambientmetadata.application/10.5.0/lib/net8.0/Microsoft.Extensions.AmbientMetadata.Application.dll
+ microsoft.extensions.compliance.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.Compliance.Abstractions.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.configuration.binder/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+ microsoft.extensions.configuration/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection.autoactivation/10.5.0/lib/net8.0/Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.diagnostics.exceptionsummarization/10.5.0/lib/net8.0/Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.http.diagnostics/10.5.0/lib/net8.0/Microsoft.Extensions.Http.Diagnostics.dll
+ microsoft.extensions.http.resilience/10.5.0/lib/net8.0/Microsoft.Extensions.Http.Resilience.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.options/10.0.7/lib/net8.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net8.0/Microsoft.Extensions.Primitives.dll
+ microsoft.extensions.resilience/10.5.0/lib/net8.0/Microsoft.Extensions.Resilience.dll
+ microsoft.extensions.servicediscovery.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+ microsoft.extensions.servicediscovery/10.5.0/lib/net8.0/Microsoft.Extensions.ServiceDiscovery.dll
+ microsoft.extensions.telemetry.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.Telemetry.Abstractions.dll
+ microsoft.extensions.telemetry/10.5.0/lib/net8.0/Microsoft.Extensions.Telemetry.dll
+ nats.client.abstractions/2.7.2/lib/net8.0/NATS.Client.Abstractions.dll
+ nats.client.core/2.7.2/lib/net8.0/NATS.Client.Core.dll
+ nats.client.hosting/2.7.2/lib/net8.0/NATS.Client.Hosting.dll
+ nats.client.jetstream/2.7.2/lib/net8.0/NATS.Client.JetStream.dll
+ nats.client.keyvaluestore/2.7.2/lib/net8.0/NATS.Client.KeyValueStore.dll
+ nats.client.objectstore/2.7.2/lib/net8.0/NATS.Client.ObjectStore.dll
+ nats.client.serializers.json/2.7.2/lib/net8.0/NATS.Client.Serializers.Json.dll
+ nats.client.services/2.7.2/lib/net8.0/NATS.Client.Services.dll
+ nats.client.simplified/2.7.2/lib/net8.0/NATS.Client.Simplified.dll
+ nats.net/2.7.2/lib/net8.0/NATS.Net.dll
+ opentelemetry.api.providerbuilderextensions/1.15.3/lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll
+ opentelemetry.api/1.15.3/lib/net8.0/OpenTelemetry.Api.dll
+ opentelemetry.exporter.opentelemetryprotocol/1.15.3/lib/net8.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+ opentelemetry.extensions.hosting/1.15.3/lib/net8.0/OpenTelemetry.Extensions.Hosting.dll
+ opentelemetry.instrumentation.aspnetcore/1.15.2/lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll
+ opentelemetry.instrumentation.http/1.15.1/lib/net8.0/OpenTelemetry.Instrumentation.Http.dll
+ opentelemetry.instrumentation.runtime/1.15.1/lib/net8.0/OpenTelemetry.Instrumentation.Runtime.dll
+ opentelemetry/1.15.3/lib/net8.0/OpenTelemetry.dll
+ polly.core/8.6.5/lib/net8.0/Polly.Core.dll
+ polly.extensions/8.6.5/lib/net8.0/Polly.Extensions.dll
+ polly.ratelimiting/8.4.2/lib/net8.0/Polly.RateLimiting.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net8.0/System.Diagnostics.DiagnosticSource.dll
+
+[analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/
+ Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+ Microsoft.NET.Sdk.Razor/source-generators/
+  Microsoft.AspNetCore.Razor.Utilities.Shared.dll
+  Microsoft.CodeAnalysis.Razor.Compiler.dll
+  Microsoft.Extensions.ObjectPool.dll
+ Microsoft.NET.Sdk.Web/analyzers/cs/
+  Microsoft.AspNetCore.Analyzers.dll
+  Microsoft.AspNetCore.Mvc.Analyzers.dll
+<NUGET>/
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+ microsoft.extensions.telemetry.abstractions/10.5.0/analyzers/dotnet/cs/
+  Microsoft.Gen.Logging.dll
+  Microsoft.Gen.Metrics.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ ../
+  .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+  artifacts/obj/Nats.Backend/Debug/net8.0/Nats.Backend.GeneratedMSBuildEditorConfig.editorconfig
+  .editorconfig
+ .editorconfig
+
+[projectReferences]
+../
+ ../
+  ../src/Components/Aspire.NATS.Net/Aspire.NATS.Net.csproj
+  Playground.ServiceDefaults/Playground.ServiceDefaults.csproj
+ Nats.Common/Nats.Common.csproj
+
+[capabilities]
+AspNetCore
+CrossPlatformExecutable
+DotNetCoreRazor
+DotNetCoreWeb
+NativeAOT
+Pack
+SupportsHotReload
+Web

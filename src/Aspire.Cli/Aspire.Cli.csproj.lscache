@@ -1,0 +1,935 @@
+hash=a2dcf40d855879e9d5bae6a34419c163fe49a643f106697f9aa12746381d39fe
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=Aspire.Cli.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=aspire
+MaxSupportedLangVersion=14.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../artifacts/obj/Aspire.Cli/project.assets.json
+RootNamespace=Aspire.Cli
+TargetFramework=net10.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../artifacts/bin/Aspire.Cli/Debug/net10.0/aspire.dll
+TargetRefPath=<PATH>../../artifacts/obj/Aspire.Cli/Debug/net10.0/ref/aspire.dll
+TemporaryDependencyNodeTargetIdentifier=net10.0
+
+[commandLineArguments]
+/noconfig
+/unsafe+
+/checked-
+/nowarn:1701,1702,1705,xUnit1051,NU1510,ASPIREATS001,CS1591,MCPEXP001,NU5105,IL2121,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:10
+/doc:<PATH>../../artifacts/obj/Aspire.Cli/Debug/net10.0/aspire.xml
+/define:TRACE;CLI;DEBUG;NET;NET10_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/features:"InterceptorsNamespaces=;Microsoft.Extensions.Configuration.Binder.SourceGeneration;Microsoft.AspNetCore.Http.Generated;Microsoft.Extensions.Configuration.Binder.SourceGeneration;Microsoft.Extensions.Validation.Generated"
+/debug+
+/debug:embedded
+/filealign:512
+/optimize-
+/out:<PATH>../../artifacts/obj/Aspire.Cli/Debug/net10.0/aspire.dll
+/refout:<PATH>../../artifacts/obj/Aspire.Cli/Debug/net10.0/refint/aspire.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../
+ ../artifacts/obj/Aspire.Cli/Debug/net10.0/
+  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+  Aspire.Cli.AssemblyInfo.cs
+  Aspire.Cli.GlobalUsings.g.cs
+  Aspire.Cli.InternalsVisibleTo.cs
+ Aspire.Hosting/
+  ApplicationModel/KnownResourceCommands.cs
+   @link=Utils/KnownResourceCommands.cs
+  Backchannel/BackchannelDataTypes.cs
+   @link=Backchannel/CliBackchannelDataTypes.cs
+ Shared/
+  ConsoleLogs/
+   AnsiParser.cs
+    @link=ConsoleLogs/AnsiParser.cs
+   LogEntries.cs
+    @link=ConsoleLogs/LogEntries.cs
+   LogEntry.cs
+    @link=ConsoleLogs/LogEntry.cs
+   LogParser.cs
+    @link=ConsoleLogs/LogParser.cs
+   LogPauseViewModel.cs
+    @link=ConsoleLogs/LogPauseViewModel.cs
+   PromptContext.cs
+    @link=ConsoleLogs/PromptContext.cs
+   SharedAIHelpers.cs
+    @link=ConsoleLogs/SharedAIHelpers.cs
+   TimestampParser.cs
+    @link=ConsoleLogs/TimestampParser.cs
+   UrlParser.cs
+    @link=ConsoleLogs/UrlParser.cs
+  Export/ExportArchive.cs
+   @link=Export/ExportArchive.cs
+  Json/JsonFlattener.cs
+   @link=Utils/JsonFlattener.cs
+  Mcp/McpIconHelper.cs
+   @link=Mcp/McpIconHelper.cs
+  Model/
+   Serialization/
+    ResourceJson.cs
+     @link=Model/Serialization/ResourceJson.cs
+    TelemetryValidateTokenJson.cs
+     @link=Otlp/TelemetryValidateTokenJson.cs
+   KnownProperties.cs
+    @link=Model/KnownProperties.cs
+   KnownResourceTypes.cs
+    @link=Model/KnownResourceTypes.cs
+   ResourceSourceViewModel.cs
+    @link=Model/ResourceSourceViewModel.cs
+  Otlp/
+   Serialization/
+    OtlpCommonJson.cs
+     @link=Otlp/OtlpCommonJson.cs
+    OtlpJsonSerializerContext.cs
+     @link=Otlp/OtlpJsonSerializerContext.cs
+    OtlpLogsJson.cs
+     @link=Otlp/OtlpLogsJson.cs
+    OtlpMetricsJson.cs
+     @link=Otlp/OtlpMetricsJson.cs
+    OtlpResourceJson.cs
+     @link=Otlp/OtlpResourceJson.cs
+    OtlpTraceJson.cs
+     @link=Otlp/OtlpTraceJson.cs
+    ResourceInfoJson.cs
+     @link=Otlp/ResourceInfoJson.cs
+    TelemetryApiResponse.cs
+     @link=Otlp/TelemetryApiResponse.cs
+   IOtlpResource.cs
+    @link=Otlp/IOtlpResource.cs
+   OtlpHelpers.cs
+    @link=Otlp/OtlpHelpers.cs
+  UserSecrets/
+   IsolatedUserSecretsHelper.cs
+    @link=Utils/IsolatedUserSecretsHelper.cs
+   SecretsStore.cs
+    @link=Secrets/SecretsStore.cs
+   UserSecretsPathHelper.cs
+    @link=Utils/UserSecretsPathHelper.cs
+  AppHostProfilePortGenerator.cs
+   @link=Utils/AppHostProfilePortGenerator.cs
+  BackchannelConstants.cs
+   @link=Backchannel/BackchannelConstants.cs
+  BundleDiscovery.cs
+   @link=Layout/BundleDiscovery.cs
+  CircularBuffer.cs
+   @link=Utils/CircularBuffer.cs
+  ColorGenerator.cs
+   @link=Utils/ColorGenerator.cs
+  ContainerRuntimeDetector.cs
+   @link=Utils/ContainerRuntimeDetector.cs
+  DashboardConfigNames.cs
+   @link=Utils/DashboardConfigNames.cs
+  DashboardExitCodes.cs
+   @link=Utils/DashboardExitCodes.cs
+  DashboardUrls.cs
+   @link=Utils/DashboardUrls.cs
+  DateFormatStringsHelpers.cs
+   @link=Utils/DateFormatStringsHelpers.cs
+  DurationFormatter.cs
+   @link=Utils/DurationFormatter.cs
+  EnumerableExtensions.cs
+   @link=Utils/EnumerableExtensions.cs
+  FormatHelpers.cs
+   @link=Utils/FormatHelpers.cs
+  IConfigurationExtensions.cs
+   @link=Utils/IConfigurationExtensions.cs
+  KnownConfigNames.cs
+   @link=Utils/KnownConfigNames.cs
+  KnownFormats.cs
+   @link=Utils/KnownFormats.cs
+  KnownOtelConfigNames.cs
+   @link=Utils/KnownOtelConfigNames.cs
+  KnownUnsupportedUrlSchemes.cs
+   @link=Utils/KnownUnsupportedUrlSchemes.cs
+  LocaleHelpers.cs
+   @link=Utils/LocaleHelpers.cs
+  NpmVersionHelper.cs
+   @link=Utils/NpmVersionHelper.cs
+  PackageUpdateHelpers.cs
+   @link=Utils/PackageUpdateHelpers.cs
+  PathLookupHelper.cs
+   @link=Utils/PathLookupHelper.cs
+  PathNormalizer.cs
+   @link=Utils/PathNormalizer.cs
+  ProcessSignaler.cs
+   @link=Utils/ProcessSignaler.cs
+  StringComparers.cs
+   @link=Utils/StringComparers.cs
+  TimeProviderExtensions.cs
+   @link=Extensions/TimeProviderExtensions.cs
+  TokenGenerator.cs
+   @link=Utils/TokenGenerator.cs
+  X509Certificate2Extensions.cs
+   @link=Utils/X509Certificate2Extensions.cs
+Agents/
+ ClaudeCode/
+  ClaudeCodeAgentEnvironmentScanner.cs
+  ClaudeCodeCliRunner.cs
+  IClaudeCodeCliRunner.cs
+ CopilotCli/
+  CopilotCliAgentEnvironmentScanner.cs
+  CopilotCliRunner.cs
+  ICopilotCliRunner.cs
+ OpenCode/
+  IOpenCodeCliRunner.cs
+  OpenCodeAgentEnvironmentScanner.cs
+  OpenCodeCliRunner.cs
+ Playwright/
+  IPlaywrightCliRunner.cs
+  PlaywrightCliInstaller.cs
+  PlaywrightCliRunner.cs
+ VsCode/
+  IVsCodeCliRunner.cs
+  VsCodeAgentEnvironmentScanner.cs
+  VsCodeCliRunner.cs
+ AgentEnvironmentApplicator.cs
+ AgentEnvironmentDetector.cs
+ AgentEnvironmentScanContext.cs
+ CommonAgentApplicators.cs
+ DeprecatedMcpCommandScanner.cs
+ EmbeddedSkillResourceLoader.cs
+ IAgentEnvironmentDetector.cs
+ IAgentEnvironmentScanner.cs
+ McpConfigFileHelper.cs
+ McpInitPromptGroup.cs
+ SkillDefinition.cs
+ SkillLocation.cs
+Backchannel/
+ AppHostAuxiliaryBackchannel.cs
+ AppHostCliBackchannel.cs
+ AppHostConnectionHelper.cs
+ AppHostConnectionResolver.cs
+ AppHostIncompatibleException.cs
+ AuxiliaryBackchannelMonitor.cs
+ BackchannelJsonSerializerContext.cs
+ ExtensionBackchannel.cs
+ ExtensionBackchannelDataTypes.cs
+ ExtensionIncompatibleException.cs
+ ExtensionRpcTarget.cs
+ FailedToConnectBackchannelConnection.cs
+ IAppHostAuxiliaryBackchannel.cs
+ IAuxiliaryBackchannelMonitor.cs
+ ResourceSnapshotMapper.cs
+ ResourceSnapshotWatcher.cs
+Bundles/
+ BundleService.cs
+ EmbeddedBundlePayloadProvider.cs
+ IBundlePayloadProvider.cs
+ IBundleService.cs
+Caching/
+ DiskCache.cs
+ IDiskCache.cs
+Certificates/
+ CertificateGeneration/
+  CertificateExportFormat.cs
+  CertificateManager.cs
+  CertificatePurpose.cs
+  EnsureCertificateResult.cs
+  ImportCertificateResult.cs
+  MacOSCertificateManager.cs
+  UnixCertificateManager.cs
+  WindowsCertificateManager.cs
+ CertificateHelpers.cs
+ CertificateService.cs
+ DevCertInfo.cs
+ ICertificateToolRunner.cs
+ NativeCertificateToolRunner.cs
+Commands/
+ Sdk/
+  IntegrationAssemblyNameResolver.cs
+  SdkCommand.cs
+  SdkDumpCommand.cs
+  SdkGenerateCommand.cs
+ AddCommand.cs
+ AgentCommand.cs
+ AgentInitCommand.cs
+ AgentMcpCommand.cs
+ ApiCommand.cs
+ ApiGetCommand.cs
+ ApiListCommand.cs
+ ApiSearchCommand.cs
+ AppHostConnectionResultHandler.cs
+ AppHostFollowDisconnectHelpers.cs
+ AppHostLauncher.cs
+ BaseCommand.cs
+ BaseConfigSubCommand.cs
+ CacheCommand.cs
+ CertificatesCleanCommand.cs
+ CertificatesCommand.cs
+ CertificatesTrustCommand.cs
+ ConfigCommand.cs
+ ConfigInfo.cs
+ DashboardCommand.cs
+ DashboardRunCommand.cs
+ DeployCommand.cs
+ DescribeCommand.cs
+ DestroyCommand.cs
+ DoCommand.cs
+ DocsCommand.cs
+ DocsGetCommand.cs
+ DocsListCommand.cs
+ DocsSearchCommand.cs
+ DoctorCommand.cs
+ ExecCommand.cs
+ ExportCommand.cs
+ ExtensionInternalCommand.cs
+ GroupedHelpAction.cs
+ GroupedHelpWriter.cs
+ HelpGroups.cs
+ InitCommand.cs
+ LogsCommand.cs
+ McpCallCommand.cs
+ McpCommand.cs
+ McpInitCommand.cs
+ McpStartCommand.cs
+ McpToolsCommand.cs
+ NewCommand.cs
+ OptionWithLegacy.cs
+ OutputFormat.cs
+ PipelineCommandBase.cs
+ PsCommand.cs
+ PublishCommand.cs
+ RenderCommand.cs
+ ResourceCommand.cs
+ ResourceCommandHelper.cs
+ RestoreCommand.cs
+ RootCommand.cs
+ RunCommand.cs
+ SecretCommand.cs
+ SecretDeleteCommand.cs
+ SecretGetCommand.cs
+ SecretListCommand.cs
+ SecretPathCommand.cs
+ SecretSetCommand.cs
+ SettingsSchemaBuilder.cs
+ SetupCommand.cs
+ StartCommand.cs
+ StopCommand.cs
+ TelemetryCommand.cs
+ TelemetryCommandHelpers.cs
+ TelemetryLogsCommand.cs
+ TelemetrySpansCommand.cs
+ TelemetryTracesCommand.cs
+ TemplateCommand.cs
+ UpdateCommand.cs
+ WaitCommand.cs
+Configuration/
+ AppHostPathConfigurationPolicy.cs
+ AspireConfigFile.cs
+ AspireJsonConfiguration.cs
+ ConfigurationService.cs
+ Features.cs
+ FlexibleBooleanConverter.cs
+ FlexibleBooleanDictionaryConverter.cs
+ HiddenFromConfigurationSchemaAttribute.cs
+ IConfigurationService.cs
+ IFeatures.cs
+ IntegrationReference.cs
+ LocalAspireJsonConfigurationPropertyAttribute.cs
+Diagnostics/
+ FileLoggerProvider.cs
+ StartupErrorWriter.cs
+Documentation/
+ ApiDocs/
+  ApiDocsCache.cs
+  ApiDocsFetcher.cs
+  ApiDocsIndexService.cs
+  ApiDocsSourceConfiguration.cs
+  ApiMemberMarkdownParser.cs
+  ApiSitemapParser.cs
+  IApiDocsCache.cs
+ Docs/
+  DocsCache.cs
+  DocsFetcher.cs
+  DocsIndexService.cs
+  DocsSearchService.cs
+  DocsSourceConfiguration.cs
+  IDocsCache.cs
+  LlmsTxtParser.cs
+ CachedHttpDocumentFetcher.cs
+ DocumentationCacheKey.cs
+ FileBackedDocumentContentCache.cs
+ IDocumentContentCache.cs
+ LexicalScoring.cs
+ SourceContentFingerprint.cs
+DotNet/
+ DotNetCliRunner.cs
+ DotNetSdkInstaller.cs
+ IDotNetSdkInstaller.cs
+ IProcessExecution.cs
+ IProcessExecutionFactory.cs
+ ProcessExecution.cs
+ ProcessExecutionFactory.cs
+Exceptions/
+ ChannelNotFoundException.cs
+ DotNetSdkNotInstalledException.cs
+ ProjectAlreadyExistsException.cs
+Git/
+ GitRepository.cs
+ IGitRepository.cs
+Interaction/
+ BannerService.cs
+ ConsoleInteractionService.cs
+ ConsoleLogTypes.cs
+ ConsoleOutput.cs
+ EmptyChoicesException.cs
+ ExtensionInteractionService.cs
+ ExtensionOperationCanceledException.cs
+ IBannerService.cs
+ IInteractionService.cs
+ KnownEmojis.cs
+ NonInteractiveException.cs
+ PromptBinding.cs
+ SpectreConsoleLoggerProvider.cs
+Layout/
+ LayoutConfiguration.cs
+ LayoutDiscovery.cs
+ LayoutProcessRunner.cs
+Mcp/
+ Tools/
+  CallToolContext.cs
+  CliMcpTool.cs
+  DocsToolHelper.cs
+  DoctorTool.cs
+  ExecuteResourceCommandTool.cs
+  GetDocTool.cs
+  IDashboardInfoProvider.cs
+  ListAppHostsTool.cs
+  ListConsoleLogsTool.cs
+  ListDocsTool.cs
+  ListIntegrationsTool.cs
+  ListResourcesTool.cs
+  ListStructuredLogsTool.cs
+  ListTracesTool.cs
+  ListTraceStructuredLogsTool.cs
+  McpToolHelpers.cs
+  RefreshToolsTool.cs
+  SearchDocsTool.cs
+  SelectAppHostTool.cs
+ IMcpNotifier.cs
+ IMcpResourceToolRefreshService.cs
+ IMcpTransportFactory.cs
+ KnownMcpTools.cs
+ McpErrorMessages.cs
+ McpResourceToolRefreshService.cs
+ McpServerNotifier.cs
+ StdioMcpTransportFactory.cs
+Npm/
+ INpmProvenanceChecker.cs
+ INpmRunner.cs
+ NpmRunner.cs
+ SigstoreNpmProvenanceChecker.cs
+NuGet/
+ BundleNuGetPackageCache.cs
+ BundleNuGetService.cs
+ IPackageMetaPrefetchingCommand.cs
+ NuGetPackageCache.cs
+ NuGetPackagePrefetcher.cs
+ NuGetSignatureVerificationEnabler.cs
+OpenCode/
+ IOpenCodeCliRunner.cs
+ OpenCodeCliRunner.cs
+Packaging/
+ NuGetConfigMerger.cs
+ NuGetConfigPrompter.cs
+ PackageChannel.cs
+ PackageChannelNames.cs
+ PackageChannelQuality.cs
+ PackageChannelType.cs
+ PackageMapping.cs
+ PackagingService.cs
+ TemporaryNuGetConfig.cs
+Processes/
+ DetachedProcessLauncher.cs
+ DetachedProcessLauncher.Unix.cs
+ DetachedProcessLauncher.Windows.cs
+Projects/
+ AppHostEnvironmentDefaults.cs
+ AppHostProjectContext.cs
+ AppHostProjectFactory.cs
+ AppHostRpcClient.cs
+ AppHostServerProject.cs
+ AppHostServerSession.cs
+ DefaultLanguageDiscovery.cs
+ DotNetAppHostProject.cs
+ DotNetBasedAppHostServerProject.cs
+ ExtensionGuestLauncher.cs
+ FallbackProjectParser.cs
+ GuestAppHostProject.cs
+ GuestRuntime.cs
+ IAppHostProject.cs
+ IAppHostProjectFactory.cs
+ IAppHostRpcClient.cs
+ IAppHostServerProject.cs
+ IAppHostServerSession.cs
+ IGuestAppHostSdkGenerator.cs
+ IGuestProcessLauncher.cs
+ ILanguageDiscovery.cs
+ ILanguageService.cs
+ KnownLanguageId.cs
+ LanguageService.cs
+ PrebuiltAppHostServer.cs
+ ProcessGuestLauncher.cs
+ ProjectFileExtensions.cs
+ ProjectLocator.cs
+ ProjectUpdater.cs
+ RunningInstanceManager.cs
+ SolutionLocator.cs
+ TypeScriptAppHostToolchainResolver.cs
+Resources/
+ AddCommandStrings.Designer.cs
+ AgentCommandStrings.Designer.cs
+ ApiCommandStrings.Designer.cs
+ CacheCommandStrings.Designer.cs
+ CertificatesCommandStrings.Designer.cs
+ ClaudeCodeAgentEnvironmentScannerStrings.Designer.cs
+ ConfigCommandStrings.Designer.cs
+ ConsoleActivityLoggerStrings.Designer.cs
+ CopilotCliAgentEnvironmentScannerStrings.Designer.cs
+ DashboardCommandStrings.Designer.cs
+ DeployCommandStrings.Designer.cs
+ DescribeCommandStrings.Designer.cs
+ DestroyCommandStrings.Designer.cs
+ DoCommandStrings.Designer.cs
+ DocsCommandStrings.Designer.cs
+ DoctorCommandStrings.Designer.cs
+ ErrorStrings.Designer.cs
+ ExecCommandStrings.Designer.cs
+ ExportCommandStrings.Designer.cs
+ HelpGroupStrings.Designer.cs
+ InitCommandStrings.Designer.cs
+ InteractionServiceStrings.Designer.cs
+ LogsCommandStrings.Designer.cs
+ McpCommandStrings.Designer.cs
+ NewCommandStrings.Designer.cs
+ OpenCodeAgentEnvironmentScannerStrings.Designer.cs
+ PackagingStrings.Designer.cs
+ PsCommandStrings.Designer.cs
+ PublishCommandStrings.Designer.cs
+ ResourceCommandStrings.Designer.cs
+ RestoreCommandStrings.Designer.cs
+ RootCommandStrings.Designer.cs
+ RunCommandStrings.Designer.cs
+ SecretCommandStrings.Designer.cs
+ SharedCommandStrings.Designer.cs
+ StartCommandStrings.Designer.cs
+ StopCommandStrings.Designer.cs
+ TelemetryCommandStrings.Designer.cs
+ TemplatingStrings.Designer.cs
+ UpdateCommandStrings.Designer.cs
+ VsCodeAgentEnvironmentScannerStrings.Designer.cs
+ WaitCommandStrings.Designer.cs
+Scaffolding/
+ IScaffoldingService.cs
+ PackageJsonMerger.cs
+ ScaffoldingService.cs
+Secrets/SecretStoreResolver.cs
+Telemetry/
+ AspireCliTelemetry.cs
+ CIEnvironmentDetector.cs
+ ConsoleExporterLevel.cs
+ DefaultMachineInformationProvider.cs
+ ICIEnvironmentDetector.cs
+ IMachineInformationProvider.cs
+ LinuxMachineInformationProvider.cs
+ MachineInformationProviderBase.cs
+ MacOSXMachineInformationProvider.cs
+ TelemetryConstants.cs
+ TelemetryManager.cs
+ TelemetryServiceCollectionExtensions.cs
+ UnixMachineInformationProvider.cs
+ WindowsMachineInformationProvider.cs
+Templating/
+ CallbackTemplate.cs
+ CliTemplateFactory.cs
+ CliTemplateFactory.EmptyTemplate.cs
+ CliTemplateFactory.GoStarterTemplate.cs
+ CliTemplateFactory.PythonStarterTemplate.cs
+ CliTemplateFactory.TypeScriptStarterTemplate.cs
+ ConditionalBlockProcessor.cs
+ DotNetTemplateFactory.cs
+ ITemplate.cs
+ ITemplateFactory.cs
+ ITemplateProvider.cs
+ KnownTemplateId.cs
+ TemplateInputs.cs
+ TemplateNuGetConfigService.cs
+ TemplateProvider.cs
+ TemplateRuntime.cs
+Utils/
+ EnvironmentChecker/
+  ContainerRuntimeCheck.cs
+  DeprecatedAgentConfigCheck.cs
+  DeprecatedWorkloadCheck.cs
+  DevCertsCheck.cs
+  DotNetSdkCheck.cs
+  EnvironmentChecker.cs
+  EnvironmentCheckResult.cs
+  IEnvironmentCheck.cs
+  IEnvironmentChecker.cs
+  TypeScriptAppHostToolingCheck.cs
+  WslEnvironmentCheck.cs
+ Markdown/
+  MarkdownToSpectreConverter.cs
+  MarkdownToSpectreConverter.Markup.cs
+  MarkdownToSpectreConverter.PlainText.cs
+  MarkdownToSpectreConverter.Renderable.cs
+ AppHostHelper.cs
+ ArchiveHelper.cs
+ AspireAnsiConsoleOutput.cs
+ AspireRepositoryDetector.cs
+ CliDownloader.cs
+ CliHostEnvironment.cs
+ CliPathHelper.cs
+ CliUpdateNotifier.cs
+ CommandPathResolver.cs
+ ConfigurationHelper.cs
+ ConsoleActivityLogger.cs
+ ConsoleHelpers.cs
+ DotNetToolDetection.cs
+ EmojiWidth.cs
+ ExtensionHelper.cs
+ FileDeleteHelper.cs
+ FileLock.cs
+ FileSystemHelper.cs
+ FirstTimeUseNoticeSentinel.cs
+ IFirstTimeUseNoticeSentinel.cs
+ MissingJavaScriptToolWarning.cs
+ OutputCollector.cs
+ ReparsePoint.cs
+ ResourceColorMap.cs
+ SdkCheckResult.cs
+ SdkInstallHelper.cs
+ StringUtils.cs
+ TableExtensions.cs
+ TransactionalAction.cs
+ UrlHelper.cs
+ VersionHelper.cs
+ Win32Constants.cs
+CliConfigNames.cs
+CliExecutionContext.cs
+CliSettings.cs
+CommonOptionNames.cs
+ConsoleEnvironment.cs
+ExitCodeConstants.cs
+JsonSourceGenerationContext.cs
+KnownFeatures.cs
+Program.cs
+
+[metadataReferences]
+../../
+ .dotnet/packs/Microsoft.NETCore.App.Ref/10.0.5/ref/net10.0/
+  Microsoft.CSharp.dll
+  Microsoft.VisualBasic.Core.dll
+  Microsoft.VisualBasic.dll
+  Microsoft.Win32.Primitives.dll
+  Microsoft.Win32.Registry.dll
+  mscorlib.dll
+  netstandard.dll
+  System.AppContext.dll
+  System.Buffers.dll
+  System.Collections.Concurrent.dll
+  System.Collections.dll
+  System.Collections.Immutable.dll
+  System.Collections.NonGeneric.dll
+  System.Collections.Specialized.dll
+  System.ComponentModel.Annotations.dll
+  System.ComponentModel.DataAnnotations.dll
+  System.ComponentModel.dll
+  System.ComponentModel.EventBasedAsync.dll
+  System.ComponentModel.Primitives.dll
+  System.ComponentModel.TypeConverter.dll
+  System.Configuration.dll
+  System.Console.dll
+  System.Core.dll
+  System.Data.Common.dll
+  System.Data.DataSetExtensions.dll
+  System.Data.dll
+  System.Diagnostics.Contracts.dll
+  System.Diagnostics.Debug.dll
+  System.Diagnostics.DiagnosticSource.dll
+  System.Diagnostics.FileVersionInfo.dll
+  System.Diagnostics.Process.dll
+  System.Diagnostics.StackTrace.dll
+  System.Diagnostics.TextWriterTraceListener.dll
+  System.Diagnostics.Tools.dll
+  System.Diagnostics.TraceSource.dll
+  System.Diagnostics.Tracing.dll
+  System.dll
+  System.Drawing.dll
+  System.Drawing.Primitives.dll
+  System.Dynamic.Runtime.dll
+  System.Formats.Asn1.dll
+  System.Formats.Tar.dll
+  System.Globalization.Calendars.dll
+  System.Globalization.dll
+  System.Globalization.Extensions.dll
+  System.IO.Compression.Brotli.dll
+  System.IO.Compression.dll
+  System.IO.Compression.FileSystem.dll
+  System.IO.Compression.ZipFile.dll
+  System.IO.dll
+  System.IO.FileSystem.AccessControl.dll
+  System.IO.FileSystem.dll
+  System.IO.FileSystem.DriveInfo.dll
+  System.IO.FileSystem.Primitives.dll
+  System.IO.FileSystem.Watcher.dll
+  System.IO.IsolatedStorage.dll
+  System.IO.MemoryMappedFiles.dll
+  System.IO.Pipelines.dll
+  System.IO.Pipes.AccessControl.dll
+  System.IO.Pipes.dll
+  System.IO.UnmanagedMemoryStream.dll
+  System.Linq.AsyncEnumerable.dll
+  System.Linq.dll
+  System.Linq.Expressions.dll
+  System.Linq.Parallel.dll
+  System.Linq.Queryable.dll
+  System.Memory.dll
+  System.Net.dll
+  System.Net.Http.dll
+  System.Net.Http.Json.dll
+  System.Net.HttpListener.dll
+  System.Net.Mail.dll
+  System.Net.NameResolution.dll
+  System.Net.NetworkInformation.dll
+  System.Net.Ping.dll
+  System.Net.Primitives.dll
+  System.Net.Quic.dll
+  System.Net.Requests.dll
+  System.Net.Security.dll
+  System.Net.ServerSentEvents.dll
+  System.Net.ServicePoint.dll
+  System.Net.Sockets.dll
+  System.Net.WebClient.dll
+  System.Net.WebHeaderCollection.dll
+  System.Net.WebProxy.dll
+  System.Net.WebSockets.Client.dll
+  System.Net.WebSockets.dll
+  System.Numerics.dll
+  System.Numerics.Vectors.dll
+  System.ObjectModel.dll
+  System.Reflection.DispatchProxy.dll
+  System.Reflection.dll
+  System.Reflection.Emit.dll
+  System.Reflection.Emit.ILGeneration.dll
+  System.Reflection.Emit.Lightweight.dll
+  System.Reflection.Extensions.dll
+  System.Reflection.Metadata.dll
+  System.Reflection.Primitives.dll
+  System.Reflection.TypeExtensions.dll
+  System.Resources.Reader.dll
+  System.Resources.ResourceManager.dll
+  System.Resources.Writer.dll
+  System.Runtime.CompilerServices.Unsafe.dll
+  System.Runtime.CompilerServices.VisualC.dll
+  System.Runtime.dll
+  System.Runtime.Extensions.dll
+  System.Runtime.Handles.dll
+  System.Runtime.InteropServices.dll
+  System.Runtime.InteropServices.JavaScript.dll
+  System.Runtime.InteropServices.RuntimeInformation.dll
+  System.Runtime.Intrinsics.dll
+  System.Runtime.Loader.dll
+  System.Runtime.Numerics.dll
+  System.Runtime.Serialization.dll
+  System.Runtime.Serialization.Formatters.dll
+  System.Runtime.Serialization.Json.dll
+  System.Runtime.Serialization.Primitives.dll
+  System.Runtime.Serialization.Xml.dll
+  System.Security.AccessControl.dll
+  System.Security.Claims.dll
+  System.Security.Cryptography.Algorithms.dll
+  System.Security.Cryptography.Cng.dll
+  System.Security.Cryptography.Csp.dll
+  System.Security.Cryptography.dll
+  System.Security.Cryptography.Encoding.dll
+  System.Security.Cryptography.OpenSsl.dll
+  System.Security.Cryptography.Primitives.dll
+  System.Security.Cryptography.X509Certificates.dll
+  System.Security.dll
+  System.Security.Principal.dll
+  System.Security.Principal.Windows.dll
+  System.Security.SecureString.dll
+  System.ServiceModel.Web.dll
+  System.ServiceProcess.dll
+  System.Text.Encoding.CodePages.dll
+  System.Text.Encoding.dll
+  System.Text.Encoding.Extensions.dll
+  System.Text.Encodings.Web.dll
+  System.Text.Json.dll
+  System.Text.RegularExpressions.dll
+  System.Threading.AccessControl.dll
+  System.Threading.Channels.dll
+  System.Threading.dll
+  System.Threading.Overlapped.dll
+  System.Threading.Tasks.Dataflow.dll
+  System.Threading.Tasks.dll
+  System.Threading.Tasks.Extensions.dll
+  System.Threading.Tasks.Parallel.dll
+  System.Threading.Thread.dll
+  System.Threading.ThreadPool.dll
+  System.Threading.Timer.dll
+  System.Transactions.dll
+  System.Transactions.Local.dll
+  System.ValueTuple.dll
+  System.Web.dll
+  System.Web.HttpUtility.dll
+  System.Windows.dll
+  System.Xml.dll
+  System.Xml.Linq.dll
+  System.Xml.ReaderWriter.dll
+  System.Xml.Serialization.dll
+  System.Xml.XDocument.dll
+  System.Xml.XmlDocument.dll
+  System.Xml.XmlSerializer.dll
+  System.Xml.XPath.dll
+  System.Xml.XPath.XDocument.dll
+  WindowsBase.dll
+ artifacts/obj/Aspire.TypeSystem/Debug/net8.0/ref/Aspire.TypeSystem.dll
+<NUGET>/
+ azure.core/1.53.0/lib/net10.0/Azure.Core.dll
+ azure.monitor.opentelemetry.exporter/1.5.0/lib/net8.0/Azure.Monitor.OpenTelemetry.Exporter.dll
+ markdig/0.45.0/lib/net9.0/Markdig.dll
+ messagepack.annotations/2.5.198/lib/netstandard2.0/MessagePack.Annotations.dll
+ messagepack/2.5.198/lib/net6.0/MessagePack.dll
+ microsoft.bcl.asyncinterfaces/10.0.3/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
+ microsoft.extensions.ai.abstractions/10.3.0/lib/net10.0/Microsoft.Extensions.AI.Abstractions.dll
+ microsoft.extensions.caching.abstractions/10.0.7/lib/net10.0/Microsoft.Extensions.Caching.Abstractions.dll
+ microsoft.extensions.caching.memory/10.0.7/lib/net10.0/Microsoft.Extensions.Caching.Memory.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.configuration.binder/10.0.7/lib/net10.0/Microsoft.Extensions.Configuration.Binder.dll
+ microsoft.extensions.configuration.commandline/10.0.7/lib/net10.0/Microsoft.Extensions.Configuration.CommandLine.dll
+ microsoft.extensions.configuration.environmentvariables/10.0.7/lib/net10.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+ microsoft.extensions.configuration.fileextensions/10.0.7/lib/net10.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+ microsoft.extensions.configuration.json/10.0.7/lib/net10.0/Microsoft.Extensions.Configuration.Json.dll
+ microsoft.extensions.configuration.usersecrets/10.0.7/lib/net10.0/Microsoft.Extensions.Configuration.UserSecrets.dll
+ microsoft.extensions.configuration/10.0.7/lib/net10.0/Microsoft.Extensions.Configuration.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection/10.0.7/lib/net10.0/Microsoft.Extensions.DependencyInjection.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.diagnostics/10.0.7/lib/net10.0/Microsoft.Extensions.Diagnostics.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.fileproviders.physical/10.0.7/lib/net10.0/Microsoft.Extensions.FileProviders.Physical.dll
+ microsoft.extensions.filesystemglobbing/10.0.7/lib/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net10.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.hosting/10.0.7/lib/net10.0/Microsoft.Extensions.Hosting.dll
+ microsoft.extensions.http/10.0.7/lib/net10.0/Microsoft.Extensions.Http.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.logging.configuration/10.0.7/lib/net10.0/Microsoft.Extensions.Logging.Configuration.dll
+ microsoft.extensions.logging.console/10.0.7/lib/net10.0/Microsoft.Extensions.Logging.Console.dll
+ microsoft.extensions.logging.debug/10.0.7/lib/net10.0/Microsoft.Extensions.Logging.Debug.dll
+ microsoft.extensions.logging.eventlog/10.0.7/lib/net10.0/Microsoft.Extensions.Logging.EventLog.dll
+ microsoft.extensions.logging.eventsource/10.0.7/lib/net10.0/Microsoft.Extensions.Logging.EventSource.dll
+ microsoft.extensions.logging/10.0.7/lib/net10.0/Microsoft.Extensions.Logging.dll
+ microsoft.extensions.options.configurationextensions/10.0.7/lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+ microsoft.extensions.options/10.0.7/lib/net10.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net10.0/Microsoft.Extensions.Primitives.dll
+ microsoft.identity.client.extensions.msal/4.83.1/lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+ microsoft.identity.client/4.83.1/lib/net8.0/Microsoft.Identity.Client.dll
+ microsoft.identitymodel.abstractions/8.14.0/lib/net9.0/Microsoft.IdentityModel.Abstractions.dll
+ microsoft.visualstudio.threading.only/17.14.15/lib/net8.0/Microsoft.VisualStudio.Threading.dll
+ microsoft.visualstudio.validation/17.8.8/lib/net6.0/Microsoft.VisualStudio.Validation.dll
+ modelcontextprotocol.core/1.0.0/lib/net10.0/ModelContextProtocol.Core.dll
+ modelcontextprotocol/1.0.0/lib/net10.0/ModelContextProtocol.dll
+ nerdbank.streams/2.12.87/lib/net8.0/Nerdbank.Streams.dll
+ newtonsoft.json/13.0.4/lib/net6.0/Newtonsoft.Json.dll
+ nsec.cryptography/25.4.0/lib/net8.0/NSec.Cryptography.dll
+ opentelemetry.api.providerbuilderextensions/1.15.3/lib/net10.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll
+ opentelemetry.api/1.15.3/lib/net10.0/OpenTelemetry.Api.dll
+ opentelemetry.exporter.console/1.15.3/lib/net10.0/OpenTelemetry.Exporter.Console.dll
+ opentelemetry.exporter.opentelemetryprotocol/1.15.3/lib/net10.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+ opentelemetry.extensions.hosting/1.15.3/lib/net10.0/OpenTelemetry.Extensions.Hosting.dll
+ opentelemetry.persistentstorage.abstractions/1.0.2/lib/netstandard2.0/OpenTelemetry.PersistentStorage.Abstractions.dll
+ opentelemetry.persistentstorage.filesystem/1.0.2/lib/netstandard2.0/OpenTelemetry.PersistentStorage.FileSystem.dll
+ opentelemetry/1.15.3/lib/net10.0/OpenTelemetry.dll
+ semver/3.0.0/lib/net5.0/Semver.dll
+ sigstore/0.4.0/lib/net10.0/Sigstore.dll
+ spectre.console.ansi/0.55.2/lib/net10.0/Spectre.Console.Ansi.dll
+ spectre.console/0.55.2/lib/net10.0/Spectre.Console.dll
+ streamjsonrpc/2.23.32-alpha/lib/net8.0/StreamJsonRpc.dll
+ system.clientmodel/1.10.0/lib/net10.0/System.ClientModel.dll
+ system.commandline/2.0.0/lib/net8.0/System.CommandLine.dll
+ system.diagnostics.eventlog/10.0.7/lib/net10.0/System.Diagnostics.EventLog.dll
+ system.io.hashing/10.0.3/lib/net10.0/System.IO.Hashing.dll
+ system.memory.data/10.0.3/lib/net10.0/System.Memory.Data.dll
+ system.security.cryptography.protecteddata/4.5.0/ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+ tuf/0.4.0/lib/net10.0/Tuf.dll
+
+[sdkAnalyzerPacks]
+Microsoft.NET.ILLink.Tasks
+
+[analyzerReferences]
+../../.dotnet/
+ packs/Microsoft.NETCore.App.Ref/10.0.5/analyzers/dotnet/cs/
+  Microsoft.Interop.ComInterfaceGenerator.dll
+  Microsoft.Interop.JavaScript.JSImportGenerator.dll
+  Microsoft.Interop.LibraryImportGenerator.dll
+  Microsoft.Interop.SourceGeneration.dll
+  System.Text.Json.SourceGeneration.dll
+  System.Text.RegularExpressions.Generator.dll
+ sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+<NUGET>/
+ microsoft.extensions.configuration.binder/10.0.7/analyzers/dotnet/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll
+ microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+ modelcontextprotocol.core/1.0.0/analyzers/dotnet/cs/ModelContextProtocol.Analyzers.dll
+ system.clientmodel/1.10.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_10_default.globalconfig
+ artifacts/obj/Aspire.Cli/Debug/net10.0/Aspire.Cli.GeneratedMSBuildEditorConfig.editorconfig
+ .editorconfig
+
+[projectReferences]
+../Aspire.TypeSystem/Aspire.TypeSystem.csproj
+
+[capabilities]
+CrossPlatformExecutable
+LocalUserSecrets
+NativeAOT
+Pack
+PublishAot
+PublishTrimmed
+SupportsHotReload

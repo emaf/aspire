@@ -1,0 +1,172 @@
+hash=eeac416d77d2475a961df68490fb928b7c01b9011c743948dbc815c48e03420f
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=CatalogService.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=CatalogService
+MaxSupportedLangVersion=12.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../../artifacts/obj/CatalogService/project.assets.json
+RootNamespace=CatalogService
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../../artifacts/bin/CatalogService/Debug/net8.0/CatalogService.dll
+TargetRefPath=<PATH>../../../artifacts/obj/CatalogService/Debug/net8.0/ref/CatalogService.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,1591,xUnit1051,NU1510,ASPIREATS001,1573,1591,1712,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../../artifacts/obj/CatalogService/Debug/net8.0/CatalogService.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../../artifacts/obj/CatalogService/Debug/net8.0/CatalogService.dll
+/refout:<PATH>../../../artifacts/obj/CatalogService/Debug/net8.0/refint/CatalogService.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../../../artifacts/obj/CatalogService/Debug/net8.0/
+ .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ CatalogService.AssemblyInfo.cs
+ CatalogService.GlobalUsings.g.cs
+CatalogApi.cs
+Program.cs
+
+[nugetFrameworkPacks]
+Microsoft.AspNetCore.App.Ref
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+../../../artifacts/obj/
+ Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/Debug/net8.0/ref/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ CatalogModel/Debug/net8.0/ref/CatalogModel.dll
+ TestShop.ServiceDefaults/Debug/net8.0/ref/TestShop.ServiceDefaults.dll
+<NUGET>/
+ aspnetcore.healthchecks.applicationstatus/9.0.0/lib/net8.0/HealthChecks.ApplicationStatus.dll
+ microsoft.entityframeworkcore.abstractions/8.0.26/lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+ microsoft.entityframeworkcore.relational/8.0.26/lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+ microsoft.entityframeworkcore/8.0.26/lib/net8.0/Microsoft.EntityFrameworkCore.dll
+ microsoft.extensions.ambientmetadata.application/10.5.0/lib/net8.0/Microsoft.Extensions.AmbientMetadata.Application.dll
+ microsoft.extensions.compliance.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.Compliance.Abstractions.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.configuration.binder/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+ microsoft.extensions.configuration/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection.autoactivation/10.5.0/lib/net8.0/Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.diagnostics.exceptionsummarization/10.5.0/lib/net8.0/Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+ microsoft.extensions.diagnostics.healthchecks.entityframeworkcore/8.0.26/lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.http.diagnostics/10.5.0/lib/net8.0/Microsoft.Extensions.Http.Diagnostics.dll
+ microsoft.extensions.http.resilience/10.5.0/lib/net8.0/Microsoft.Extensions.Http.Resilience.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.options/10.0.7/lib/net8.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net8.0/Microsoft.Extensions.Primitives.dll
+ microsoft.extensions.resilience/10.5.0/lib/net8.0/Microsoft.Extensions.Resilience.dll
+ microsoft.extensions.servicediscovery.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+ microsoft.extensions.servicediscovery/10.5.0/lib/net8.0/Microsoft.Extensions.ServiceDiscovery.dll
+ microsoft.extensions.telemetry.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.Telemetry.Abstractions.dll
+ microsoft.extensions.telemetry/10.5.0/lib/net8.0/Microsoft.Extensions.Telemetry.dll
+ npgsql.dependencyinjection/8.0.6/lib/net7.0/Npgsql.DependencyInjection.dll
+ npgsql.entityframeworkcore.postgresql/8.0.11/lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ npgsql.opentelemetry/8.0.6/lib/netstandard2.0/Npgsql.OpenTelemetry.dll
+ npgsql/8.0.6/lib/net8.0/Npgsql.dll
+ opentelemetry.api.providerbuilderextensions/1.15.3/lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll
+ opentelemetry.api/1.15.3/lib/net8.0/OpenTelemetry.Api.dll
+ opentelemetry.exporter.opentelemetryprotocol/1.15.3/lib/net8.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+ opentelemetry.extensions.hosting/1.15.3/lib/net8.0/OpenTelemetry.Extensions.Hosting.dll
+ opentelemetry.instrumentation.aspnetcore/1.15.2/lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll
+ opentelemetry.instrumentation.grpcnetclient/1.15.1-beta.1/lib/net8.0/OpenTelemetry.Instrumentation.GrpcNetClient.dll
+ opentelemetry.instrumentation.http/1.15.1/lib/net8.0/OpenTelemetry.Instrumentation.Http.dll
+ opentelemetry.instrumentation.runtime/1.15.1/lib/net8.0/OpenTelemetry.Instrumentation.Runtime.dll
+ opentelemetry/1.15.3/lib/net8.0/OpenTelemetry.dll
+ polly.core/8.6.5/lib/net8.0/Polly.Core.dll
+ polly.extensions/8.6.5/lib/net8.0/Polly.Extensions.dll
+ polly.ratelimiting/8.4.2/lib/net8.0/Polly.RateLimiting.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net8.0/System.Diagnostics.DiagnosticSource.dll
+
+[analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/
+ Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+ Microsoft.NET.Sdk.Razor/source-generators/
+  Microsoft.AspNetCore.Razor.Utilities.Shared.dll
+  Microsoft.CodeAnalysis.Razor.Compiler.dll
+  Microsoft.Extensions.ObjectPool.dll
+ Microsoft.NET.Sdk.Web/analyzers/cs/
+  Microsoft.AspNetCore.Analyzers.dll
+  Microsoft.AspNetCore.Mvc.Analyzers.dll
+<NUGET>/
+ microsoft.entityframeworkcore.analyzers/8.0.26/analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+ microsoft.extensions.telemetry.abstractions/10.5.0/analyzers/dotnet/cs/
+  Microsoft.Gen.Logging.dll
+  Microsoft.Gen.Metrics.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ ../
+  .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+  artifacts/obj/CatalogService/Debug/net8.0/CatalogService.GeneratedMSBuildEditorConfig.editorconfig
+  .editorconfig
+ .editorconfig
+
+[projectReferences]
+../
+ ../../src/Components/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.csproj
+ CatalogModel/CatalogModel.csproj
+ TestShop.ServiceDefaults/TestShop.ServiceDefaults.csproj
+
+[capabilities]
+AspNetCore
+CrossPlatformExecutable
+DotNetCoreRazor
+DotNetCoreWeb
+NativeAOT
+Pack
+SupportsHotReload
+Web

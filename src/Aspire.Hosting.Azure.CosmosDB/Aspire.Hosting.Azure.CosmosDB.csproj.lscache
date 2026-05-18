@@ -1,0 +1,229 @@
+hash=07c50a968eb1c71191df2f6e784b18a3b47a1c0e6467f2ff3f5e75f483562eb3
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=Aspire.Hosting.Azure.CosmosDB.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Aspire.Hosting.Azure.CosmosDB
+MaxSupportedLangVersion=12.0
+OutputType=Library
+ProjectAssetsFile=<PATH>../../artifacts/obj/Aspire.Hosting.Azure.CosmosDB/project.assets.json
+RootNamespace=Aspire.Hosting.Azure.CosmosDB
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../artifacts/bin/Aspire.Hosting.Azure.CosmosDB/Debug/net8.0/Aspire.Hosting.Azure.CosmosDB.dll
+TargetRefPath=<PATH>../../artifacts/obj/Aspire.Hosting.Azure.CosmosDB/Debug/net8.0/ref/Aspire.Hosting.Azure.CosmosDB.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,xUnit1051,NU1510,ASPIREATS001,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../artifacts/obj/Aspire.Hosting.Azure.CosmosDB/Debug/net8.0/Aspire.Hosting.Azure.CosmosDB.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../artifacts/obj/Aspire.Hosting.Azure.CosmosDB/Debug/net8.0/Aspire.Hosting.Azure.CosmosDB.dll
+/refout:<PATH>../../artifacts/obj/Aspire.Hosting.Azure.CosmosDB/Debug/net8.0/refint/Aspire.Hosting.Azure.CosmosDB.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../
+ ../artifacts/obj/Aspire.Hosting.Azure.CosmosDB/Debug/net8.0/
+  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+  Aspire.Hosting.Azure.CosmosDB.AssemblyInfo.cs
+  Aspire.Hosting.Azure.CosmosDB.GlobalUsings.g.cs
+  Aspire.Hosting.Azure.CosmosDB.InternalsVisibleTo.cs
+ Shared/
+  Cosmos/
+   CosmosConstants.cs
+    @link=Shared/CosmosConstants.cs
+   CosmosUtils.cs
+    @link=Shared/CosmosUtils.cs
+  AzureCredentialHelper.cs
+   @link=AzureCredentialHelper.cs
+  KnownUrls.cs
+   @link=KnownUrls.cs
+  StableConnectionStringBuilder.cs
+   @link=Shared/StableConnectionStringBuilder.cs
+AzureCosmosDBContainerResource.cs
+AzureCosmosDBDatabaseResource.cs
+AzureCosmosDBEmulatorConnectionString.cs
+AzureCosmosDBEmulatorResource.cs
+AzureCosmosDBExtensions.cs
+AzureCosmosDBResource.cs
+CosmosDBEmulatorContainerImageTags.cs
+
+[nugetFrameworkPacks]
+Microsoft.AspNetCore.App.Ref
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+../../artifacts/obj/
+ Aspire.Hosting.Azure.KeyVault/Debug/net8.0/ref/Aspire.Hosting.Azure.KeyVault.dll
+ Aspire.Hosting.Azure/Debug/net8.0/ref/Aspire.Hosting.Azure.dll
+ Aspire.Hosting/Debug/net8.0/ref/Aspire.Hosting.dll
+<NUGET>/
+ aspnetcore.healthchecks.cosmosdb/9.0.0/lib/net8.0/HealthChecks.CosmosDb.dll
+ aspnetcore.healthchecks.uris/9.0.0/lib/net8.0/HealthChecks.Uris.dll
+ azure.core/1.53.0/lib/net8.0/Azure.Core.dll
+ azure.identity/1.21.0/lib/net8.0/Azure.Identity.dll
+ azure.provisioning.cosmosdb/1.0.0/lib/netstandard2.0/Azure.Provisioning.CosmosDB.dll
+ azure.provisioning.keyvault/1.1.0/lib/net8.0/Azure.Provisioning.KeyVault.dll
+ azure.provisioning/1.5.0/lib/net8.0/Azure.Provisioning.dll
+ azure.resourcemanager.resources/1.11.2/lib/net8.0/Azure.ResourceManager.Resources.dll
+ azure.resourcemanager/1.13.2/lib/net8.0/Azure.ResourceManager.dll
+ azure.security.keyvault.secrets/4.8.0/lib/net8.0/Azure.Security.KeyVault.Secrets.dll
+ fractions/7.3.0/lib/netstandard2.1/Fractions.dll
+ google.protobuf/3.33.5/lib/net5.0/Google.Protobuf.dll
+ grpc.aspnetcore.server.clientfactory/2.76.0/lib/net8.0/Grpc.AspNetCore.Server.ClientFactory.dll
+ grpc.aspnetcore.server/2.76.0/lib/net8.0/Grpc.AspNetCore.Server.dll
+ grpc.core.api/2.76.0/lib/netstandard2.1/Grpc.Core.Api.dll
+ grpc.net.client/2.76.0/lib/net8.0/Grpc.Net.Client.dll
+ grpc.net.clientfactory/2.76.0/lib/net8.0/Grpc.Net.ClientFactory.dll
+ grpc.net.common/2.76.0/lib/net8.0/Grpc.Net.Common.dll
+ humanizer.core/2.14.1/lib/net6.0/Humanizer.dll
+ json.more.net/2.1.0/lib/net8.0/Json.More.dll
+ jsonpatch.net/3.3.0/lib/net8.0/JsonPatch.Net.dll
+ jsonpointer.net/5.2.0/lib/net8.0/JsonPointer.Net.dll
+ kubernetesclient/18.0.13/lib/net8.0/KubernetesClient.dll
+ messagepack.annotations/2.5.192/lib/netstandard2.0/MessagePack.Annotations.dll
+ messagepack/2.5.192/lib/net6.0/MessagePack.dll
+ microsoft.azure.cosmos/3.54.0/lib/netstandard2.0/
+  Microsoft.Azure.Cosmos.Client.dll
+  Microsoft.Azure.Cosmos.Core.dll
+  Microsoft.Azure.Cosmos.Direct.dll
+  Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+ microsoft.bcl.asyncinterfaces/10.0.3/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
+ microsoft.bcl.hashcode/1.1.0/ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll
+ microsoft.extensions.ai.abstractions/10.3.0/lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll
+ microsoft.extensions.caching.abstractions/10.0.3/lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.configuration.binder/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+ microsoft.extensions.configuration.commandline/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.CommandLine.dll
+ microsoft.extensions.configuration.environmentvariables/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+ microsoft.extensions.configuration.fileextensions/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+ microsoft.extensions.configuration.json/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Json.dll
+ microsoft.extensions.configuration.usersecrets/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll
+ microsoft.extensions.configuration/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.26/lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+ microsoft.extensions.diagnostics.healthchecks/8.0.26/lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+ microsoft.extensions.diagnostics/10.0.7/lib/net8.0/Microsoft.Extensions.Diagnostics.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.fileproviders.physical/10.0.7/lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll
+ microsoft.extensions.filesystemglobbing/10.0.7/lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.hosting/10.0.7/lib/net8.0/Microsoft.Extensions.Hosting.dll
+ microsoft.extensions.http/10.0.7/lib/net8.0/Microsoft.Extensions.Http.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.logging.configuration/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Configuration.dll
+ microsoft.extensions.logging.console/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Console.dll
+ microsoft.extensions.logging.debug/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Debug.dll
+ microsoft.extensions.logging.eventlog/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.EventLog.dll
+ microsoft.extensions.logging.eventsource/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.EventSource.dll
+ microsoft.extensions.logging/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.dll
+ microsoft.extensions.options.configurationextensions/10.0.7/lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+ microsoft.extensions.options/10.0.7/lib/net8.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net8.0/Microsoft.Extensions.Primitives.dll
+ microsoft.identity.client.extensions.msal/4.83.1/lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+ microsoft.identity.client/4.83.1/lib/net8.0/Microsoft.Identity.Client.dll
+ microsoft.identitymodel.abstractions/8.14.0/lib/net8.0/Microsoft.IdentityModel.Abstractions.dll
+ microsoft.visualstudio.threading.only/17.13.61/lib/net8.0/Microsoft.VisualStudio.Threading.dll
+ microsoft.visualstudio.validation/17.8.8/lib/net6.0/Microsoft.VisualStudio.Validation.dll
+ microsoft.win32.systemevents/6.0.0/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+ modelcontextprotocol.core/1.0.0/lib/net8.0/ModelContextProtocol.Core.dll
+ modelcontextprotocol/1.0.0/lib/net8.0/ModelContextProtocol.dll
+ nerdbank.streams/2.12.87/lib/net8.0/Nerdbank.Streams.dll
+ newtonsoft.json/13.0.4/lib/net6.0/Newtonsoft.Json.dll
+ polly.core/8.6.5/lib/net8.0/Polly.Core.dll
+ semver/3.0.0/lib/net5.0/Semver.dll
+ streamjsonrpc/2.22.23/lib/net8.0/StreamJsonRpc.dll
+ system.clientmodel/1.10.0/lib/net8.0/System.ClientModel.dll
+ system.configuration.configurationmanager/6.0.0/lib/net6.0/System.Configuration.ConfigurationManager.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net8.0/System.Diagnostics.DiagnosticSource.dll
+ system.diagnostics.eventlog/10.0.7/lib/net8.0/System.Diagnostics.EventLog.dll
+ system.drawing.common/6.0.0/lib/net6.0/System.Drawing.Common.dll
+ system.io.hashing/10.0.3/lib/net8.0/System.IO.Hashing.dll
+ system.io.pipelines/10.0.7/lib/net8.0/System.IO.Pipelines.dll
+ system.memory.data/10.0.3/lib/net8.0/System.Memory.Data.dll
+ system.net.serversentevents/10.0.3/lib/net8.0/System.Net.ServerSentEvents.dll
+ system.security.cryptography.protecteddata/6.0.0/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+ system.security.permissions/6.0.0/lib/net6.0/System.Security.Permissions.dll
+ system.text.encodings.web/10.0.7/lib/net8.0/System.Text.Encodings.Web.dll
+ system.text.json/10.0.7/lib/net8.0/System.Text.Json.dll
+ system.windows.extensions/6.0.0/lib/net6.0/System.Windows.Extensions.dll
+ yamldotnet/16.3.0/lib/net8.0/YamlDotNet.dll
+
+[analyzerReferences]
+../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+ artifacts/bin/Aspire.Hosting.Integration.Analyzers/Debug/netstandard2.0/Aspire.Hosting.Integration.Analyzers.dll
+<NUGET>/
+ microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+ modelcontextprotocol.core/1.0.0/analyzers/dotnet/cs/ModelContextProtocol.Analyzers.dll
+ system.clientmodel/1.10.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
+ system.text.json/10.0.7/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+ artifacts/obj/Aspire.Hosting.Azure.CosmosDB/Debug/net8.0/Aspire.Hosting.Azure.CosmosDB.GeneratedMSBuildEditorConfig.editorconfig
+ .editorconfig
+
+[projectReferences]
+../
+ Aspire.Hosting.Azure.KeyVault/Aspire.Hosting.Azure.KeyVault.csproj
+ Aspire.Hosting.Azure/Aspire.Hosting.Azure.csproj
+ Aspire.Hosting.Integration.Analyzers/Aspire.Hosting.Integration.Analyzers.csproj
+ Aspire.Hosting/Aspire.Hosting.csproj
+
+[capabilities]
+LocalUserSecrets
+NativeAOT
+Pack
+SupportsHotReload

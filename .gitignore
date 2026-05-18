@@ -124,9 +124,6 @@ Session.vim
 config.ps1
 **/IISApplications
 
-# Language server cache files
-*.lscache
-
 # Node.js modules
 node_modules/
 

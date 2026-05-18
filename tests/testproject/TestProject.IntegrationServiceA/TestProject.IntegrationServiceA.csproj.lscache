@@ -1,0 +1,165 @@
+hash=2164bbc18a0354fef58583344090b17a66967c00f3587204c91899b65e27f80b
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=TestProject.IntegrationServiceA.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=TestProject.IntegrationServiceA
+MaxSupportedLangVersion=13.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../../artifacts/obj/TestProject.IntegrationServiceA/project.assets.json
+RootNamespace=TestProject.IntegrationServiceA
+TargetFramework=net9.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../../artifacts/bin/TestProject.IntegrationServiceA/Debug/net9.0/TestProject.IntegrationServiceA.dll
+TargetRefPath=<PATH>../../../artifacts/obj/TestProject.IntegrationServiceA/Debug/net9.0/ref/TestProject.IntegrationServiceA.dll
+TemporaryDependencyNodeTargetIdentifier=net9.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,1591,xUnit1051,NU1510,ASPIREATS001,1573,1591,1712,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:9
+/doc:<PATH>../../../artifacts/obj/TestProject.IntegrationServiceA/Debug/net9.0/TestProject.IntegrationServiceA.xml
+/define:TRACE;DEBUG;NET;NET9_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../../artifacts/obj/TestProject.IntegrationServiceA/Debug/net9.0/TestProject.IntegrationServiceA.dll
+/refout:<PATH>../../../artifacts/obj/TestProject.IntegrationServiceA/Debug/net9.0/refint/TestProject.IntegrationServiceA.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../
+ ../../artifacts/obj/TestProject.IntegrationServiceA/Debug/net9.0/
+  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+  TestProject.IntegrationServiceA.AssemblyInfo.cs
+  TestProject.IntegrationServiceA.GlobalUsings.g.cs
+ Common/TestResourceNames.cs
+  @link=TestResourceNames.cs
+Postgres/
+ NpgsqlDbContext.cs
+ NpgsqlEFCoreExtensions.cs
+ PostgresExtensions.cs
+Redis/RedisExtensions.cs
+Program.cs
+ResilienceUtils.cs
+
+[nugetFrameworkPacks]
+Microsoft.AspNetCore.App.Ref
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+../../../artifacts/obj/
+ Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/Debug/net9.0/ref/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ Aspire.Npgsql/Debug/net9.0/ref/Aspire.Npgsql.dll
+ Aspire.StackExchange.Redis/Debug/net9.0/ref/Aspire.StackExchange.Redis.dll
+<NUGET>/
+ aspnetcore.healthchecks.npgsql/9.0.0/lib/net8.0/HealthChecks.NpgSql.dll
+ aspnetcore.healthchecks.redis/9.0.0/lib/net8.0/HealthChecks.Redis.dll
+ microsoft.entityframeworkcore.abstractions/9.0.15/lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+ microsoft.entityframeworkcore.relational/9.0.15/lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+ microsoft.entityframeworkcore/9.0.15/lib/net8.0/Microsoft.EntityFrameworkCore.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.configuration.binder/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+ microsoft.extensions.configuration/10.0.7/lib/net9.0/Microsoft.Extensions.Configuration.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection.autoactivation/10.5.0/lib/net9.0/Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.diagnostics.healthchecks.entityframeworkcore/9.0.15/lib/net9.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.options/10.0.7/lib/net9.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net9.0/Microsoft.Extensions.Primitives.dll
+ npgsql.dependencyinjection/10.0.1/lib/net8.0/Npgsql.DependencyInjection.dll
+ npgsql.entityframeworkcore.postgresql/9.0.4/lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ npgsql.opentelemetry/10.0.1/lib/net8.0/Npgsql.OpenTelemetry.dll
+ npgsql/10.0.1/lib/net9.0/Npgsql.dll
+ opentelemetry.api.providerbuilderextensions/1.15.3/lib/net9.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll
+ opentelemetry.api/1.15.3/lib/net9.0/OpenTelemetry.Api.dll
+ opentelemetry.extensions.hosting/1.15.3/lib/net9.0/OpenTelemetry.Extensions.Hosting.dll
+ opentelemetry/1.15.3/lib/net9.0/OpenTelemetry.dll
+ pipelines.sockets.unofficial/2.2.8/lib/net5.0/Pipelines.Sockets.Unofficial.dll
+ polly.core/8.6.5/lib/net8.0/Polly.Core.dll
+ stackexchange.redis/2.11.0/lib/net8.0/StackExchange.Redis.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net9.0/System.Diagnostics.DiagnosticSource.dll
+ system.io.hashing/10.0.3/lib/net9.0/System.IO.Hashing.dll
+
+[analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/
+ Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+ Microsoft.NET.Sdk.Razor/source-generators/
+  Microsoft.AspNetCore.Razor.Utilities.Shared.dll
+  Microsoft.CodeAnalysis.Razor.Compiler.dll
+  Microsoft.Extensions.ObjectPool.dll
+ Microsoft.NET.Sdk.Web/analyzers/cs/
+  Microsoft.AspNetCore.Analyzers.dll
+  Microsoft.AspNetCore.Mvc.Analyzers.dll
+<NUGET>/
+ microsoft.entityframeworkcore.analyzers/9.0.15/analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll
+ microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ ../
+  .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
+  artifacts/obj/TestProject.IntegrationServiceA/Debug/net9.0/TestProject.IntegrationServiceA.GeneratedMSBuildEditorConfig.editorconfig
+  .editorconfig
+ .editorconfig
+
+[projectReferences]
+../../../src/Components/
+ Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.csproj
+ Aspire.Npgsql/Aspire.Npgsql.csproj
+ Aspire.StackExchange.Redis/Aspire.StackExchange.Redis.csproj
+
+[capabilities]
+AspNetCore
+CrossPlatformExecutable
+DotNetCoreRazor
+DotNetCoreWeb
+NativeAOT
+Pack
+SupportsHotReload
+Web

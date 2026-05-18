@@ -1,0 +1,822 @@
+hash=9f5461a8704b0da0983b7aee179ffc9a9c3ea662bae2717aadec380c960d0112
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=Aspire.Dashboard.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Aspire.Dashboard
+MaxSupportedLangVersion=12.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../artifacts/obj/Aspire.Dashboard/project.assets.json
+RootNamespace=Aspire.Dashboard
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../artifacts/bin/Aspire.Dashboard/Debug/net8.0/Aspire.Dashboard.dll
+TargetRefPath=<PATH>../../artifacts/obj/Aspire.Dashboard/Debug/net8.0/ref/Aspire.Dashboard.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,xUnit1051,NU1510,ASPIREATS001,CS1591,CS8002,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../artifacts/obj/Aspire.Dashboard/Debug/net8.0/Aspire.Dashboard.xml
+/define:TRACE;ASPIRE_DASHBOARD;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../artifacts/obj/Aspire.Dashboard/Debug/net8.0/Aspire.Dashboard.dll
+/refout:<PATH>../../artifacts/obj/Aspire.Dashboard/Debug/net8.0/refint/Aspire.Dashboard.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/features:use-roslyn-tokenizer
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../
+ ../artifacts/obj/Aspire.Dashboard/Debug/net8.0/
+  opentelemetry/proto/
+   collector/
+    logs/v1/
+     LogsService.cs
+     LogsServiceGrpc.cs
+    metrics/v1/
+     MetricsService.cs
+     MetricsServiceGrpc.cs
+    trace/v1/
+     TraceService.cs
+     TraceServiceGrpc.cs
+   common/v1/
+    Common.cs
+    CommonGrpc.cs
+   logs/v1/
+    Logs.cs
+    LogsGrpc.cs
+   metrics/v1/
+    Metrics.cs
+    MetricsGrpc.cs
+   resource/v1/
+    Resource.cs
+    ResourceGrpc.cs
+   trace/v1/
+    Trace.cs
+    TraceGrpc.cs
+  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+  Aspire.Dashboard.AssemblyInfo.cs
+  Aspire.Dashboard.GlobalUsings.g.cs
+  Aspire.Dashboard.InternalsVisibleTo.cs
+  DashboardService.cs
+  DashboardServiceGrpc.cs
+ Shared/
+  ConsoleLogs/
+   AnsiParser.cs
+    @link=Utils/ConsoleLogs/AnsiParser.cs
+   LogEntries.cs
+    @link=Utils/ConsoleLogs/LogEntries.cs
+   LogEntry.cs
+    @link=Utils/ConsoleLogs/LogEntry.cs
+   LogEntrySerializer.cs
+    @link=ConsoleLogs/LogEntrySerializer.cs
+   LogParser.cs
+    @link=Utils/ConsoleLogs/LogParser.cs
+   LogPauseViewModel.cs
+    @link=Utils/ConsoleLogs/LogPauseViewModel.cs
+   PromptContext.cs
+    @link=Utils/ConsoleLogs/PromptContext.cs
+   SharedAIHelpers.cs
+    @link=Utils/ConsoleLogs/SharedAIHelpers.cs
+   TimestampParser.cs
+    @link=Utils/ConsoleLogs/TimestampParser.cs
+   UrlParser.cs
+    @link=Utils/ConsoleLogs/UrlParser.cs
+  Export/ExportArchive.cs
+   @link=Export/ExportArchive.cs
+  Model/
+   Serialization/
+    ResourceJson.cs
+     @link=Model/Serialization/ResourceJson.cs
+    TelemetryValidateTokenJson.cs
+     @link=Otlp/Model/Serialization/TelemetryValidateTokenJson.cs
+   KnownProperties.cs
+    @link=Utils/KnownProperties.cs
+   KnownRelationshipTypes.cs
+    @link=Utils/KnownRelationshipTypes.cs
+   KnownResourceTypes.cs
+    @link=Utils/KnownResourceTypes.cs
+   ResourceSourceViewModel.cs
+    @link=Model/ResourceSourceViewModel.shared.cs
+  Otlp/
+   Serialization/
+    OtlpCommonJson.cs
+     @link=Otlp/Model/Serialization/OtlpCommonJson.cs
+    OtlpJsonSerializerContext.cs
+     @link=Otlp/Model/Serialization/OtlpJsonSerializerContext.Shared.cs
+    OtlpLogsJson.cs
+     @link=Otlp/Model/Serialization/OtlpLogsJson.cs
+    OtlpMetricsJson.cs
+     @link=Otlp/Model/Serialization/OtlpMetricsJson.cs
+    OtlpResourceJson.cs
+     @link=Otlp/Model/Serialization/OtlpResourceJson.cs
+    OtlpTraceJson.cs
+     @link=Otlp/Model/Serialization/OtlpTraceJson.cs
+    ResourceInfoJson.cs
+     @link=Otlp/Model/Serialization/ResourceInfoJson.cs
+    TelemetryApiResponse.cs
+     @link=Otlp/Model/Serialization/TelemetryApiResponse.cs
+   IOtlpResource.cs
+    @link=Otlp/Model/IOtlpResource.cs
+   OtlpHelpers.cs
+    @link=Otlp/Model/OtlpHelpersShared.cs
+  ChannelExtensions.cs
+   @link=Extensions/ChannelExtensions.cs
+  CircularBuffer.cs
+   @link=Otlp/Storage/CircularBuffer.cs
+  ColorGenerator.cs
+   @link=Utils/ColorGenerator.cs
+  CompareHelpers.cs
+   @link=Utils/CompareHelpers.cs
+  DashboardConfigNames.cs
+   @link=Utils/DashboardConfigNames.cs
+  DashboardExitCodes.cs
+   @link=Utils/DashboardExitCodes.cs
+  DashboardUrls.cs
+   @link=Utils/DashboardUrls.cs
+  DateFormatStringsHelpers.cs
+   @link=Utils/DateFormatStringsHelpers.cs
+  DurationFormatter.cs
+   @link=Utils/DurationFormatter.cs
+  EnumerableExtensions.cs
+   @link=Utils/EnumerableExtensions.cs
+  FormatHelpers.cs
+   @link=Utils/FormatHelpers.cs
+  IConfigurationExtensions.cs
+   @link=Utils/IConfigurationExtensions.cs
+  InteractionHelpers.cs
+   @link=Utils/InteractionHelpers.cs
+  KnownConfigNames.cs
+   @link=Utils/KnownConfigNames.cs
+  KnownFormats.cs
+   @link=Utils/KnownFormats.cs
+  KnownResourceNames.cs
+   @link=Utils/KnownResourceNames.cs
+  KnownUnsupportedUrlSchemes.cs
+   @link=Utils/KnownUnsupportedUrlSchemes.cs
+  KnownUrls.cs
+   @link=Utils/KnownUrls.cs
+  LocaleHelpers.cs
+   @link=Utils/LocaleHelpers.cs
+  LoggingHelpers.cs
+   @link=Utils/LoggingHelpers.cs
+  StringComparers.cs
+   @link=Utils/StringComparers.cs
+  StringUtils.cs
+   @link=Utils/StringUtils.cs
+  TaskHelpers.cs
+   @link=Utils/TaskHelpers.cs
+  TimeProviderExtensions.cs
+   @link=Extensions/TimeProviderExtensions.cs
+  TokenGenerator.cs
+   @link=Utils/TokenGenerator.cs
+Api/
+ ApiAuthenticationHandler.cs
+ TelemetryApiService.cs
+Authentication/
+ Connection/
+  ConnectionType.cs
+  ConnectionTypeAuthenticationHandler.cs
+  ConnectionTypeMiddleware.cs
+  IConnectionTypeFeature.cs
+  ListenOptionsConnectionTypeExtensions.cs
+ OpenIdConnect/AuthorizationPolicyBuilderExtensions.cs
+ OtlpApiKey/OtlpApiKeyAuthenticationHandler.cs
+ AspirePolicyEvaluator.cs
+ FrontendCompositeAuthenticationHandler.cs
+ OtlpAuthorization.cs
+ OtlpCompositeAuthenticationHandler.cs
+ UnsecuredAuthenticationHandler.cs
+Components/
+ Controls/
+  Chart/
+   ChartBase.cs
+   ChartContainer.razor.cs
+   ChartExemplar.cs
+   ChartFilters.razor.cs
+   ChartTrace.cs
+   MetricTable.razor.cs
+   PlotlyChart.razor.cs
+  Grid/
+   AspirePropertyColumn.cs
+   AspireTemplateColumn.cs
+   IAspireColumn.cs
+  PropertyValues/
+   IconValue.razor.cs
+   LogLevelValue.razor.cs
+   ResourceHealthStateValue.razor.cs
+   ResourceNameButtonValue.razor.cs
+   ResourceNameValue.razor.cs
+   ResourceStateValue.razor.cs
+   SpanIdButtonValue.razor.cs
+   SpanKindValue.razor.cs
+   SpanStatusValue.razor.cs
+   TraceIdButtonValue.razor.cs
+  ApplicationName.razor.cs
+  AspireMenu.razor.cs
+  AspireMenuButton.razor.cs
+  AssistantChat.razor.cs
+  ClearSignalsButton.razor.cs
+  ExplainErrorsButton.razor.cs
+  FluentIconSwitch.razor.cs
+  GenAIItemTitle.razor.cs
+  GridValue.razor.cs
+  InteractionInputField.razor.cs
+  LogLevelSelect.razor.cs
+  LogViewer.razor.cs
+  MarkdownRenderer.razor.cs
+  PauseIncomingDataSwitch.razor.cs
+  PropertyGrid.razor.cs
+  ResourceActions.razor.cs
+  ResourceDetails.razor.cs
+  ResourceSelect.razor.cs
+  SelectResourceOptions.razor.cs
+  SignalsActionsDisplay.razor.cs
+  SpanActions.razor.cs
+  SpanDetails.razor.cs
+  SpanTypeSelect.razor.cs
+  StructuredLogActions.razor.cs
+  StructuredLogDetails.razor.cs
+  SummaryDetailsView.razor.cs
+  TextVisualizer.razor.cs
+  TotalItemsFooter.razor.cs
+  TraceActions.razor.cs
+  TreeGenAISelector.razor.cs
+  TreeMetricSelector.razor.cs
+  UserProfile.razor.cs
+ CustomIcons/AspireIcons.cs
+ Dialogs/
+  AssistantModalDialog.razor.cs
+  AssistantSidebarDialog.razor.cs
+  ExemplarsDialog.razor.cs
+  FilterDialog.razor.cs
+  GenAIVisualizerDialog.razor.cs
+  InteractionsInputDialog.razor.cs
+  KeyboardShortcut.cs
+  ManageDataDialog.razor.cs
+  NotificationEntryComponent.razor.cs
+  NotificationsDialog.razor.cs
+  SettingsDialog.razor.cs
+  TextVisualizerDialog.razor.cs
+ Interactions/InteractionsProvider.cs
+ Layout/
+  AspirePageContentLayout.razor.cs
+  DesktopNavMenu.razor.cs
+  DesktopToolbarDivider.razor.cs
+  MainLayout.razor.cs
+  MobileNavMenu.razor.cs
+  MobileNavMenuEntry.cs
+  NotificationsHeaderButton.razor.cs
+ Pages/
+  ComponentTelemetryContext.cs
+  ConsoleLogs.razor.cs
+  Error.razor.cs
+  IComponentWithTelemetry.cs
+  IPageWithSessionAndUrlState.cs
+  Login.razor.cs
+  Metrics.razor.cs
+  NotFound.razor.cs
+  Resources.razor.cs
+  StructuredLogs.razor.cs
+  TraceDetail.razor.cs
+  Traces.razor.cs
+ Resize/
+  BrowserDimensionWatcher.cs
+  DimensionManager.cs
+  GridColumnManager.razor.cs
+  ViewportInformation.cs
+ ResourcesGridColumns/
+  LogMessageColumnDisplay.razor.cs
+  StateColumnDisplay.razor.cs
+  UnreadLogErrorsBadge.razor.cs
+  UrlsColumnDisplay.razor.cs
+Configuration/
+ ApiAuthMode.cs
+ DashboardClientCertificateSource.cs
+ DashboardOptions.cs
+ EndpointInfo.cs
+ FrontendAuthenticationDefaults.cs
+ FrontendAuthMode.cs
+ FrontendAuthorizationDefaults.cs
+ OtlpAuthMode.cs
+ PostConfigureDashboardOptions.cs
+ ResolvedEndpointInfo.cs
+ ResourceClientAuthMode.cs
+ ValidateDashboardOptions.cs
+Extensions/
+ AssemblyExtensions.cs
+ ClaimsIdentityExtensions.cs
+ CollectionExtensions.cs
+ ComponentExtensions.cs
+ FluentUIExtensions.cs
+ JSInteropExtensions.cs
+ ResourceViewModelExtensions.cs
+ StringExtensions.cs
+ TelemetryFilterFormatter.cs
+Model/
+ Assistant/
+  Ghcp/
+   GhcpInfoResponse.cs
+   GhcpModelResponse.cs
+   GhcpState.cs
+  Markdown/
+   AspireEnrichmentExtension.cs
+   AspireEnrichmentOptions.cs
+   AspireEnrichmentParser.cs
+   LogEntryInline.cs
+   LogEntryInlineRenderer.cs
+   ResourceInline.cs
+   ResourceInlineRenderer.cs
+  Prompts/
+   IceBreakersBuilder.cs
+   KnownChatMessages.cs
+   PromptContextsBuilder.cs
+  AIContext.cs
+  AIContextProvider.cs
+  AIHelpers.cs
+  AssistantChatAssistantSettings.cs
+  AssistantChatDataContext.cs
+  AssistantChatViewModel.cs
+  AssistantDialogViewModel.cs
+  ChatAssistantFormModel.cs
+  ChatClientFactory.cs
+  ChatViewModel.cs
+  ChatViewModelBuilder.cs
+  FollowUpPromptViewModel.cs
+  IAIContextProvider.cs
+  InitialPrompt.cs
+  InvariantStringLocalizer.cs
+  OtelAttributeHelpers.cs
+ BrowserStorage/
+  BrowserStorageBase.cs
+  IBrowserStorage.cs
+  ILocalStorage.cs
+  ISessionStorage.cs
+  LocalBrowserStorage.cs
+  SessionBrowserStorage.cs
+  StorageResult.cs
+ GenAI/
+  EvaluationResultViewModel.cs
+  GenAIEvents.cs
+  GenAIHelpers.cs
+  GenAIItemPartViewModel.cs
+  GenAIItemType.cs
+  GenAIItemViewModel.cs
+  GenAIMarkdownHelper.cs
+  GenAIMessageParsingHelper.cs
+  GenAIMessages.cs
+  GenAISchemaHelpers.cs
+  GenAIVisualizerDialogViewModel.cs
+  ToolDefinitionViewModel.cs
+ Interaction/
+  InputViewModel.cs
+  InteractionMarkdownHelper.cs
+  InteractionsInputsDialogViewModel.cs
+ ManageData/
+  ManageDataGridItem.cs
+  ResourceDataRow.cs
+  TelemetryDataRow.cs
+ Markdown/
+  AspireCodeBlockExtension.cs
+  HighlightedCodeBlockRenderer.cs
+  MarkdownHelpers.cs
+  MarkdownOptions.cs
+  MarkdownProcessor.cs
+ Otlp/
+  DialogFilterResult.cs
+  FilterCondition.cs
+  FilterDialogFormModel.cs
+  KnownResourceFields.cs
+  KnownSourceFields.cs
+  KnownStructuredLogFields.cs
+  KnownTraceFields.cs
+  ResourcesSelectHelpers.cs
+  SpanLogEntryViewModel.cs
+  SpanWaterfallViewModel.cs
+  TelemetryFilter.cs
+  TraceDetailSelectedDataViewModel.cs
+ ResourceGraph/
+  IconDto.cs
+  ResourceDto.cs
+  ResourceGraphMapper.cs
+ Serialization/ResourceJsonSerializerContext.cs
+ AspireDataType.cs
+ BrowserInfo.cs
+ BrowserLinkOutgoingPeerResolver.cs
+ BrowserSecurityHeadersMiddleware.cs
+ BrowserTimeProvider.cs
+ CommonMenuItems.cs
+ ComponentMetadata.cs
+ ConnectionStringParser.cs
+ ConsoleLogsFetcher.cs
+ ConsoleLogsFilters.cs
+ ConsoleLogsManager.cs
+ DashboardCommandExecutor.cs
+ DashboardDialogService.cs
+ DebugSessionHelpers.cs
+ DefaultInstrumentUnitResolver.cs
+ DimensionFilterViewModel.cs
+ EnvHelpers.cs
+ EnvironmentVariablesDialogViewModel.cs
+ EnvironmentVariableViewModel.cs
+ ExemplarsDialogViewModel.cs
+ ExportHelpers.cs
+ FilterDialogViewModel.cs
+ GridColumn.cs
+ IconResolver.cs
+ IGlobalKeydownListener.cs
+ IInstrumentUnitResolver.cs
+ INotificationService.cs
+ InstrumentViewModel.cs
+ IOutgoingPeerResolver.cs
+ KnownPropertyLookup.cs
+ KnownResourceState.cs
+ MenuButtonItem.cs
+ ModelSubscription.cs
+ NotificationService.cs
+ OpenTextVisualizerDialogOptions.cs
+ PauseManager.cs
+ PlotlyTrace.cs
+ ResourceCommandResponseViewModel.cs
+ ResourceDetailRelationshipViewModel.cs
+ ResourceGridViewModel.cs
+ ResourceIconHelpers.cs
+ ResourceLogLine.cs
+ ResourceMenuBuilder.cs
+ ResourceOutgoingPeerResolver.cs
+ ResourceSourceViewModel.cs
+ ResourceStateViewModel.cs
+ ResourceTypeDetails.cs
+ ResourceUrlHelpers.cs
+ ResourceViewModel.cs
+ ResourceViewModelExtensions.cs
+ SelectViewModel.cs
+ SpanDetailsViewModel.cs
+ SpanLinkViewModel.cs
+ SpanMenuBuilder.cs
+ SpanType.cs
+ StringLogLine.cs
+ StructuredLogMenuBuilder.cs
+ StructuredLogsViewModel.cs
+ StructureLogsDetailsViewModel.cs
+ TargetLocationInterceptor.cs
+ TelemetryExportService.cs
+ TelemetryImportService.cs
+ TelemetryPropertyViewModel.cs
+ TextVisualizerDialogViewModel.cs
+ TextVisualizerViewModel.cs
+ ThemeManager.cs
+ TokenFormModel.cs
+ TraceHelpers.cs
+ TraceLinkHelpers.cs
+ TraceMenuBuilder.cs
+ TracesViewModel.cs
+ ValidateTokenMiddleware.cs
+Otlp/
+ Grpc/
+  OtlpGrpcLogsService.cs
+  OtlpGrpcMetricsService.cs
+  OtlpGrpcTraceService.cs
+ Http/
+  OtlpHttpEndpointsBuilder.cs
+  OtlpJsonConverters.cs
+ Model/
+  MetricValues/
+   DimensionScope.cs
+   HistogramValue.cs
+   MetricValue.cs
+   MetricValueBase.cs
+  Serialization/
+   OtlpCommonJson.cs
+   OtlpJsonProtobufConverter.cs
+   OtlpMetricsJson.cs
+  AddContext.cs
+  OtlpAggregationTemporality.cs
+  OtlpContext.cs
+  OtlpDisplayField.cs
+  OtlpHelpers.cs
+  OtlpInstrument.cs
+  OtlpInstrumentKey.cs
+  OtlpInstrumentType.cs
+  OtlpLogEntry.cs
+  OtlpResource.cs
+  OtlpResourceType.cs
+  OtlpResourceView.cs
+  OtlpScope.cs
+  OtlpSpan.cs
+  OtlpSpanCollection.cs
+  OtlpSpanEvent.cs
+  OtlpSpanKind.cs
+  OtlpSpanLink.cs
+  OtlpSpanStatusCode.cs
+  OtlpTrace.cs
+  OtlpUnits.cs
+  SpanKey.cs
+ Storage/
+  GetInstrumentRequest.cs
+  GetLogsContext.cs
+  GetTracesRequest.cs
+  GetTracesResponse.cs
+  PagedResult.cs
+  ResourceKey.cs
+  Subscription.cs
+  SubscriptionType.cs
+  TelemetryRepository.cs
+  TelemetryRepository.Watchers.cs
+ OtlpLogsService.cs
+ OtlpMetricsService.cs
+ OtlpTraceService.cs
+Resources/
+ AIAssistant.Designer.cs
+ AIPrompts.Designer.cs
+ Columns.Designer.cs
+ ConsoleLogs.Designer.cs
+ ControlsStrings.Designer.cs
+ Dialogs.Designer.cs
+ KnownUrlsDisplay.Designer.cs
+ Layout.Designer.cs
+ Login.Designer.cs
+ Metrics.Designer.cs
+ Resources.Designer.cs
+ Routes.Designer.cs
+ StructuredFiltering.Designer.cs
+ StructuredLogs.Designer.cs
+ TraceDetail.Designer.cs
+ Traces.Designer.cs
+ServiceClient/
+ DashboardClient.cs
+ IDashboardClient.cs
+ Partials.cs
+Telemetry/
+ DashboardTelemetrySender.cs
+ DashboardTelemetryService.cs
+ IDashboardTelemetrySender.cs
+ OperationContext.cs
+ OperationContextProperty.cs
+ TelemetryComponentIds.cs
+ TelemetryErrorRecorder.cs
+ TelemetryEventKeys.cs
+ TelemetryLoggerProvider.cs
+ TelemetryPropertyKeys.cs
+ TelemetryPropertyValues.cs
+ TelemetryRequests.cs
+ TelemetryResponses.cs
+ VisualStudioTelemetryTypes.cs
+Utils/
+ BrowserStorageKeys.cs
+ CallbackThrottler.cs
+ CancellationSeries.cs
+ DashboardUIHelpers.cs
+ FilterHelpers.cs
+ GlobalizationHelpers.cs
+ JSInteropHelpers.cs
+ MaxItemCountHelper.cs
+ MimeTypeHelpers.cs
+ RoutingExtensions.cs
+ UrlValidationHelper.cs
+ ValueExtensions.cs
+ VersionHelpers.cs
+DashboardEndpointsBuilder.cs
+DashboardWebApplication.cs
+Program.cs
+ShortcutManager.cs
+
+[nugetFrameworkPacks]
+Microsoft.AspNetCore.App.Ref
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+<NUGET>/
+ google.protobuf/3.33.5/lib/net5.0/Google.Protobuf.dll
+ grpc.aspnetcore.server.clientfactory/2.76.0/lib/net8.0/Grpc.AspNetCore.Server.ClientFactory.dll
+ grpc.aspnetcore.server/2.76.0/lib/net8.0/Grpc.AspNetCore.Server.dll
+ grpc.core.api/2.76.0/lib/netstandard2.1/Grpc.Core.Api.dll
+ grpc.net.client/2.76.0/lib/net8.0/Grpc.Net.Client.dll
+ grpc.net.clientfactory/2.76.0/lib/net8.0/Grpc.Net.ClientFactory.dll
+ grpc.net.common/2.76.0/lib/net8.0/Grpc.Net.Common.dll
+ humanizer.core/2.14.1/lib/net6.0/Humanizer.dll
+ markdig/0.45.0/lib/net8.0/Markdig.dll
+ microsoft.aspnetcore.authentication.certificate/8.0.26/lib/net8.0/Microsoft.AspNetCore.Authentication.Certificate.dll
+ microsoft.aspnetcore.authentication.openidconnect/8.0.26/lib/net8.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+ microsoft.extensions.ai.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll
+ microsoft.extensions.ai.openai/10.5.0/lib/net8.0/Microsoft.Extensions.AI.OpenAI.dll
+ microsoft.extensions.ai/10.5.0/lib/net8.0/Microsoft.Extensions.AI.dll
+ microsoft.extensions.caching.abstractions/10.0.6/lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.options/10.0.7/lib/net8.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net8.0/Microsoft.Extensions.Primitives.dll
+ microsoft.fluentui.aspnetcore.components.icons/4.14.1/lib/net8.0/
+  Microsoft.FluentUI.AspNetCore.Components.Icons.Color.dll
+  Microsoft.FluentUI.AspNetCore.Components.Icons.dll
+  Microsoft.FluentUI.AspNetCore.Components.Icons.Filled.dll
+  Microsoft.FluentUI.AspNetCore.Components.Icons.Light.dll
+  Microsoft.FluentUI.AspNetCore.Components.Icons.Regular.dll
+ microsoft.fluentui.aspnetcore.components/4.14.1/lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.dll
+ microsoft.identitymodel.abstractions/7.1.2/lib/net8.0/Microsoft.IdentityModel.Abstractions.dll
+ microsoft.identitymodel.jsonwebtokens/7.1.2/lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+ microsoft.identitymodel.logging/7.1.2/lib/net8.0/Microsoft.IdentityModel.Logging.dll
+ microsoft.identitymodel.protocols.openidconnect/7.1.2/lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+ microsoft.identitymodel.protocols/7.1.2/lib/net8.0/Microsoft.IdentityModel.Protocols.dll
+ microsoft.identitymodel.tokens/7.1.2/lib/net8.0/Microsoft.IdentityModel.Tokens.dll
+ microsoft.openapi/3.1.1/lib/net8.0/Microsoft.OpenApi.dll
+ openai/2.10.0/lib/net8.0/OpenAI.dll
+ system.clientmodel/1.10.0/lib/net8.0/System.ClientModel.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net8.0/System.Diagnostics.DiagnosticSource.dll
+ system.identitymodel.tokens.jwt/7.1.2/lib/net8.0/System.IdentityModel.Tokens.Jwt.dll
+ system.io.pipelines/10.0.7/lib/net8.0/System.IO.Pipelines.dll
+ system.memory.data/10.0.3/lib/net8.0/System.Memory.Data.dll
+ system.net.serversentevents/10.0.2/lib/net8.0/System.Net.ServerSentEvents.dll
+ system.numerics.tensors/10.0.6/lib/net8.0/System.Numerics.Tensors.dll
+ system.text.encodings.web/10.0.7/lib/net8.0/System.Text.Encodings.Web.dll
+ system.text.json/10.0.7/lib/net8.0/System.Text.Json.dll
+ system.threading.channels/10.0.6/lib/net8.0/System.Threading.Channels.dll
+
+[analyzerReferences]
+../../.dotnet/sdk/10.0.201/Sdks/
+ Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+ Microsoft.NET.Sdk.Razor/source-generators/
+  Microsoft.AspNetCore.Razor.Utilities.Shared.dll
+  Microsoft.CodeAnalysis.Razor.Compiler.dll
+  Microsoft.Extensions.ObjectPool.dll
+ Microsoft.NET.Sdk.Web/analyzers/cs/
+  Microsoft.AspNetCore.Analyzers.dll
+  Microsoft.AspNetCore.Mvc.Analyzers.dll
+<NUGET>/
+ microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+ system.clientmodel/1.10.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
+ system.text.json/10.0.7/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+ artifacts/obj/Aspire.Dashboard/Debug/net8.0/Aspire.Dashboard.GeneratedMSBuildEditorConfig.editorconfig
+ .editorconfig
+
+[additionalFiles]
+Components/
+ Controls/
+  Chart/
+   ChartContainer.razor
+   ChartFilters.razor
+   MetricTable.razor
+   PlotlyChart.razor
+  PropertyValues/
+   IconValue.razor
+   LogLevelValue.razor
+   ParameterValueDisplayCell.razor
+   ResourceHealthStateValue.razor
+   ResourceNameButtonValue.razor
+   ResourceNameValue.razor
+   ResourceStateValue.razor
+   SpanIdButtonValue.razor
+   SpanKindValue.razor
+   SpanStatusValue.razor
+   TraceIdButtonValue.razor
+  ApplicationName.razor
+  AspireLogo.razor
+  AspireMenu.razor
+  AspireMenuButton.razor
+  AssistantChat.razor
+  ChatSplashCopilotLogo.razor
+  ClearSignalsButton.razor
+  DetailView.razor
+  ExceptionDetails.razor
+  ExplainErrorsButton.razor
+  FluentIconSwitch.razor
+  GenAIItemTitle.razor
+  GridValue.razor
+  InteractionInputField.razor
+  LogLevelSelect.razor
+  LogViewer.razor
+  MarkdownRenderer.razor
+  ParameterValueDisplay.razor
+  PauseIncomingDataSwitch.razor
+  PauseWarning.razor
+  PropertyGrid.razor
+  ResourceActions.razor
+  ResourceDetails.razor
+  ResourceFilters.razor
+  ResourceSelect.razor
+  ResourceSelectOptionTemplate.razor
+  SelectResourceOptions.razor
+  SignalsActionsDisplay.razor
+  SpanActions.razor
+  SpanDetails.razor
+  SpanTypeSelect.razor
+  StructuredLogActions.razor
+  StructuredLogDetails.razor
+  SummaryDetailsView.razor
+  TextVisualizer.razor
+  TotalItemsFooter.razor
+  TraceActions.razor
+  TreeGenAISelector.razor
+  TreeMetricSelector.razor
+  UserProfile.razor
+ Dialogs/
+  AssistantModalDialog.razor
+  AssistantSidebarDialog.razor
+  ExemplarsDialog.razor
+  FilterDialog.razor
+  GenAIVisualizerDialog.razor
+  HelpDialog.razor
+  InteractionsInputDialog.razor
+  ManageDataDialog.razor
+  NotificationEntryComponent.razor
+  NotificationsDialog.razor
+  SettingsDialog.razor
+  TextVisualizerDialog.razor
+ Layout/
+  AspirePageContentLayout.razor
+  DesktopNavMenu.razor
+  DesktopToolbarDivider.razor
+  EmptyLayout.razor
+  MainLayout.razor
+  MobileNavMenu.razor
+  NotificationsHeaderButton.razor
+  ReconnectModal.razor
+  ToolbarPanel.razor
+ Pages/
+  ConsoleLogs.razor
+  Error.razor
+  Login.razor
+  Metrics.razor
+  NotFound.razor
+  Resources.razor
+  StructuredLogs.razor
+  TraceDetail.razor
+  Traces.razor
+ Resize/GridColumnManager.razor
+ ResourcesGridColumns/
+  LogLevelColumnDisplay.razor
+  LogMessageColumnDisplay.razor
+  ResourceNameDisplay.razor
+  SourceColumnDisplay.razor
+  StartTimeColumnDisplay.razor
+  StateColumnDisplay.razor
+  UnreadLogErrorsBadge.razor
+  UrlsColumnDisplay.razor
+ App.razor
+ Routes.razor
+ _Imports.razor
+
+[projectReferences]
+
+[capabilities]
+AspNetCore
+CrossPlatformExecutable
+DotNetCoreRazor
+DotNetCoreWeb
+NativeAOT
+Pack
+SupportsHotReload
+Web

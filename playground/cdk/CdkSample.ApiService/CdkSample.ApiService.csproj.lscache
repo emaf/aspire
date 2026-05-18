@@ -1,0 +1,248 @@
+hash=256af905282328c643e997b44381aca3d794f10f35c68045459d3537851a7e74
+version=2
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+project=CdkSample.ApiService.csproj
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=CdkSample.ApiService
+MaxSupportedLangVersion=12.0
+OutputType=Exe
+ProjectAssetsFile=<PATH>../../../artifacts/obj/CdkSample.ApiService/project.assets.json
+RootNamespace=CdkSample.ApiService
+TargetFramework=net8.0
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>../../../artifacts/bin/CdkSample.ApiService/Debug/net8.0/CdkSample.ApiService.dll
+TargetRefPath=<PATH>../../../artifacts/obj/CdkSample.ApiService/Debug/net8.0/ref/CdkSample.ApiService.dll
+TemporaryDependencyNodeTargetIdentifier=net8.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1705,1591,xUnit1051,NU1510,ASPIREATS001,1573,1591,1712,NU5105,1701,1702,8002
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:8
+/doc:<PATH>../../../artifacts/obj/CdkSample.ApiService/Debug/net8.0/CdkSample.ApiService.xml
+/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/nullable:enable
+/debug+
+/debug:embedded
+/delaysign-
+/filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
+/optimize-
+/out:<PATH>../../../artifacts/obj/CdkSample.ApiService/Debug/net8.0/CdkSample.ApiService.dll
+/refout:<PATH>../../../artifacts/obj/CdkSample.ApiService/Debug/net8.0/refint/CdkSample.ApiService.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/publicsign-
+/checksumalgorithm:SHA256
+/langversion:preview
+/warnaserror+:NU1605,SYSLIB0011
+
+[sourceFiles]
+../../../artifacts/obj/CdkSample.ApiService/Debug/net8.0/
+ .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ CdkSample.ApiService.AssemblyInfo.cs
+ CdkSample.ApiService.GlobalUsings.g.cs
+Program.cs
+
+[nugetFrameworkPacks]
+Microsoft.AspNetCore.App.Ref
+Microsoft.NETCore.App.Ref
+
+[metadataReferences]
+../../../artifacts/obj/
+ Aspire.Azure.Messaging.ServiceBus/Debug/net8.0/ref/Aspire.Azure.Messaging.ServiceBus.dll
+ Aspire.Azure.Search.Documents/Debug/net8.0/ref/Aspire.Azure.Search.Documents.dll
+ Aspire.Azure.Security.KeyVault/Debug/net8.0/ref/Aspire.Azure.Security.KeyVault.dll
+ Aspire.Azure.Storage.Blobs/Debug/net8.0/ref/Aspire.Azure.Storage.Blobs.dll
+ Aspire.Microsoft.EntityFrameworkCore.Cosmos/Debug/net8.0/ref/Aspire.Microsoft.EntityFrameworkCore.Cosmos.dll
+ Aspire.Microsoft.EntityFrameworkCore.SqlServer/Debug/net8.0/ref/Aspire.Microsoft.EntityFrameworkCore.SqlServer.dll
+ Aspire.Microsoft.Extensions.Configuration.AzureAppConfiguration/Debug/net8.0/ref/Aspire.Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+ Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/Debug/net8.0/ref/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ Aspire.StackExchange.Redis/Debug/net8.0/ref/Aspire.StackExchange.Redis.dll
+ Playground.ServiceDefaults/Debug/net8.0/ref/Playground.ServiceDefaults.dll
+<NUGET>/
+ aspnetcore.healthchecks.applicationstatus/9.0.0/lib/net8.0/HealthChecks.ApplicationStatus.dll
+ aspnetcore.healthchecks.azure.keyvault.secrets/9.0.0/lib/net8.0/HealthChecks.Azure.KeyVault.Secrets.dll
+ aspnetcore.healthchecks.azure.storage.blobs/9.0.0/lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll
+ aspnetcore.healthchecks.azureservicebus/9.0.0/lib/net8.0/HealthChecks.AzureServiceBus.dll
+ aspnetcore.healthchecks.redis/9.0.0/lib/net8.0/HealthChecks.Redis.dll
+ azure.core.amqp/1.3.1/lib/netstandard2.0/Azure.Core.Amqp.dll
+ azure.core/1.53.0/lib/net8.0/Azure.Core.dll
+ azure.data.appconfiguration/1.6.1/lib/net8.0/Azure.Data.AppConfiguration.dll
+ azure.extensions.aspnetcore.configuration.secrets/1.4.0/lib/net8.0/Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+ azure.identity/1.21.0/lib/net8.0/Azure.Identity.dll
+ azure.messaging.eventgrid.systemevents/1.0.0/lib/net8.0/Azure.Messaging.EventGrid.SystemEvents.dll
+ azure.messaging.eventgrid/5.0.0/lib/net8.0/Azure.Messaging.EventGrid.dll
+ azure.messaging.servicebus/7.20.1/lib/net8.0/Azure.Messaging.ServiceBus.dll
+ azure.search.documents/11.7.0/lib/net8.0/Azure.Search.Documents.dll
+ azure.security.keyvault.certificates/4.8.0/lib/net8.0/Azure.Security.KeyVault.Certificates.dll
+ azure.security.keyvault.keys/4.8.0/lib/net8.0/Azure.Security.KeyVault.Keys.dll
+ azure.security.keyvault.secrets/4.8.0/lib/net8.0/Azure.Security.KeyVault.Secrets.dll
+ azure.storage.blobs/12.26.0/lib/net8.0/Azure.Storage.Blobs.dll
+ azure.storage.common/12.25.0/lib/net8.0/Azure.Storage.Common.dll
+ dnsclient/1.8.0/lib/net8.0/DnsClient.dll
+ microsoft.azure.amqp/2.7.0/lib/net8.0/Microsoft.Azure.Amqp.dll
+ microsoft.azure.cosmos/3.54.0/lib/netstandard2.0/
+  Microsoft.Azure.Cosmos.Client.dll
+  Microsoft.Azure.Cosmos.Core.dll
+  Microsoft.Azure.Cosmos.Direct.dll
+  Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+ microsoft.azure.signalr.protocols/1.32.0/lib/netstandard2.0/Microsoft.Azure.SignalR.Protocols.dll
+ microsoft.azure.signalr/1.32.0/lib/net8.0/
+  Microsoft.Azure.SignalR.Common.dll
+  Microsoft.Azure.SignalR.dll
+ microsoft.bcl.asyncinterfaces/10.0.3/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
+ microsoft.bcl.cryptography/10.0.7/lib/net8.0/Microsoft.Bcl.Cryptography.dll
+ microsoft.bcl.hashcode/6.0.0/lib/net6.0/Microsoft.Bcl.HashCode.dll
+ microsoft.data.sqlclient/6.1.4/ref/net8.0/Microsoft.Data.SqlClient.dll
+ microsoft.entityframeworkcore.abstractions/8.0.26/lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+ microsoft.entityframeworkcore.cosmos/8.0.26/lib/net8.0/Microsoft.EntityFrameworkCore.Cosmos.dll
+ microsoft.entityframeworkcore.relational/8.0.26/lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+ microsoft.entityframeworkcore.sqlserver/8.0.26/lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+ microsoft.entityframeworkcore/8.0.26/lib/net8.0/Microsoft.EntityFrameworkCore.dll
+ microsoft.extensions.ambientmetadata.application/10.5.0/lib/net8.0/Microsoft.Extensions.AmbientMetadata.Application.dll
+ microsoft.extensions.azure/1.13.1/lib/net8.0/Microsoft.Extensions.Azure.dll
+ microsoft.extensions.compliance.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.Compliance.Abstractions.dll
+ microsoft.extensions.configuration.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ microsoft.extensions.configuration.azureappconfiguration/8.4.0/lib/netstandard2.1/Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+ microsoft.extensions.configuration.binder/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+ microsoft.extensions.configuration/10.0.7/lib/net8.0/Microsoft.Extensions.Configuration.dll
+ microsoft.extensions.dependencyinjection.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection.autoactivation/10.5.0/lib/net8.0/Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+ microsoft.extensions.diagnostics.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+ microsoft.extensions.diagnostics.exceptionsummarization/10.5.0/lib/net8.0/Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+ microsoft.extensions.diagnostics.healthchecks.entityframeworkcore/8.0.26/lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+ microsoft.extensions.fileproviders.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+ microsoft.extensions.hosting.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+ microsoft.extensions.http.diagnostics/10.5.0/lib/net8.0/Microsoft.Extensions.Http.Diagnostics.dll
+ microsoft.extensions.http.resilience/10.5.0/lib/net8.0/Microsoft.Extensions.Http.Resilience.dll
+ microsoft.extensions.logging.abstractions/10.0.7/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.extensions.options/10.0.7/lib/net8.0/Microsoft.Extensions.Options.dll
+ microsoft.extensions.primitives/10.0.7/lib/net8.0/Microsoft.Extensions.Primitives.dll
+ microsoft.extensions.resilience/10.5.0/lib/net8.0/Microsoft.Extensions.Resilience.dll
+ microsoft.extensions.servicediscovery.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+ microsoft.extensions.servicediscovery/10.5.0/lib/net8.0/Microsoft.Extensions.ServiceDiscovery.dll
+ microsoft.extensions.telemetry.abstractions/10.5.0/lib/net8.0/Microsoft.Extensions.Telemetry.Abstractions.dll
+ microsoft.extensions.telemetry/10.5.0/lib/net8.0/Microsoft.Extensions.Telemetry.dll
+ microsoft.identity.client.extensions.msal/4.83.1/lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+ microsoft.identity.client/4.83.1/lib/net8.0/Microsoft.Identity.Client.dll
+ microsoft.identitymodel.abstractions/8.14.0/lib/net8.0/Microsoft.IdentityModel.Abstractions.dll
+ microsoft.identitymodel.jsonwebtokens/7.7.1/lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+ microsoft.identitymodel.logging/7.7.1/lib/net8.0/Microsoft.IdentityModel.Logging.dll
+ microsoft.identitymodel.protocols.openidconnect/7.7.1/lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+ microsoft.identitymodel.protocols/7.7.1/lib/net8.0/Microsoft.IdentityModel.Protocols.dll
+ microsoft.identitymodel.tokens/7.7.1/lib/net8.0/Microsoft.IdentityModel.Tokens.dll
+ microsoft.sqlserver.server/1.0.0/lib/netstandard2.0/Microsoft.SqlServer.Server.dll
+ newtonsoft.json/13.0.4/lib/net6.0/Newtonsoft.Json.dll
+ npgsql.dependencyinjection/8.0.6/lib/net7.0/Npgsql.DependencyInjection.dll
+ npgsql.entityframeworkcore.postgresql/8.0.11/lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ npgsql.opentelemetry/8.0.6/lib/netstandard2.0/Npgsql.OpenTelemetry.dll
+ npgsql/8.0.6/lib/net8.0/Npgsql.dll
+ opentelemetry.api.providerbuilderextensions/1.15.3/lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll
+ opentelemetry.api/1.15.3/lib/net8.0/OpenTelemetry.Api.dll
+ opentelemetry.exporter.opentelemetryprotocol/1.15.3/lib/net8.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+ opentelemetry.extensions.hosting/1.15.3/lib/net8.0/OpenTelemetry.Extensions.Hosting.dll
+ opentelemetry.instrumentation.aspnetcore/1.15.2/lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll
+ opentelemetry.instrumentation.http/1.15.1/lib/net8.0/OpenTelemetry.Instrumentation.Http.dll
+ opentelemetry.instrumentation.runtime/1.15.1/lib/net8.0/OpenTelemetry.Instrumentation.Runtime.dll
+ opentelemetry.instrumentation.sqlclient/1.15.2/lib/net8.0/OpenTelemetry.Instrumentation.SqlClient.dll
+ opentelemetry/1.15.3/lib/net8.0/OpenTelemetry.dll
+ pipelines.sockets.unofficial/2.2.8/lib/net5.0/Pipelines.Sockets.Unofficial.dll
+ polly.core/8.6.5/lib/net8.0/Polly.Core.dll
+ polly.extensions/8.6.5/lib/net8.0/Polly.Extensions.dll
+ polly.ratelimiting/8.4.2/lib/net8.0/Polly.RateLimiting.dll
+ stackexchange.redis/2.11.0/lib/net8.0/StackExchange.Redis.dll
+ system.clientmodel/1.10.0/lib/net8.0/System.ClientModel.dll
+ system.configuration.configurationmanager/8.0.1/lib/net8.0/System.Configuration.ConfigurationManager.dll
+ system.diagnostics.diagnosticsource/10.0.7/lib/net8.0/System.Diagnostics.DiagnosticSource.dll
+ system.formats.asn1/10.0.7/lib/net8.0/System.Formats.Asn1.dll
+ system.identitymodel.tokens.jwt/7.7.1/lib/net8.0/System.IdentityModel.Tokens.Jwt.dll
+ system.io.hashing/10.0.3/lib/net8.0/System.IO.Hashing.dll
+ system.io.pipelines/10.0.7/lib/net8.0/System.IO.Pipelines.dll
+ system.memory.data/10.0.3/lib/net8.0/System.Memory.Data.dll
+ system.security.cryptography.pkcs/10.0.7/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+ system.security.cryptography.protecteddata/8.0.0/lib/net8.0/System.Security.Cryptography.ProtectedData.dll
+ system.text.encodings.web/10.0.7/lib/net8.0/System.Text.Encodings.Web.dll
+ system.text.json/10.0.7/lib/net8.0/System.Text.Json.dll
+
+[analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/
+ Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+ Microsoft.NET.Sdk.Razor/source-generators/
+  Microsoft.AspNetCore.Razor.Utilities.Shared.dll
+  Microsoft.CodeAnalysis.Razor.Compiler.dll
+  Microsoft.Extensions.ObjectPool.dll
+ Microsoft.NET.Sdk.Web/analyzers/cs/
+  Microsoft.AspNetCore.Analyzers.dll
+  Microsoft.AspNetCore.Mvc.Analyzers.dll
+<NUGET>/
+ microsoft.entityframeworkcore.analyzers/8.0.26/analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll
+ microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
+ microsoft.extensions.telemetry.abstractions/10.5.0/analyzers/dotnet/cs/
+  Microsoft.Gen.Logging.dll
+  Microsoft.Gen.Metrics.dll
+ system.clientmodel/1.10.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
+ system.text.json/10.0.7/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
+
+[analyzerConfigFiles]
+../../
+ ../
+  .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
+  artifacts/obj/CdkSample.ApiService/Debug/net8.0/CdkSample.ApiService.GeneratedMSBuildEditorConfig.editorconfig
+  .editorconfig
+ .editorconfig
+
+[projectReferences]
+../../
+ ../src/Components/
+  Aspire.Azure.Messaging.ServiceBus/Aspire.Azure.Messaging.ServiceBus.csproj
+  Aspire.Azure.Search.Documents/Aspire.Azure.Search.Documents.csproj
+  Aspire.Azure.Security.KeyVault/Aspire.Azure.Security.KeyVault.csproj
+  Aspire.Azure.Storage.Blobs/Aspire.Azure.Storage.Blobs.csproj
+  Aspire.Microsoft.EntityFrameworkCore.Cosmos/Aspire.Microsoft.EntityFrameworkCore.Cosmos.csproj
+  Aspire.Microsoft.EntityFrameworkCore.SqlServer/Aspire.Microsoft.EntityFrameworkCore.SqlServer.csproj
+  Aspire.Microsoft.Extensions.Configuration.AzureAppConfiguration/Aspire.Microsoft.Extensions.Configuration.AzureAppConfiguration.csproj
+  Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.csproj
+  Aspire.StackExchange.Redis/Aspire.StackExchange.Redis.csproj
+ Playground.ServiceDefaults/Playground.ServiceDefaults.csproj
+
+[capabilities]
+AspNetCore
+CrossPlatformExecutable
+DotNetCoreRazor
+DotNetCoreWeb
+NativeAOT
+Pack
+SupportsHotReload
+Web
