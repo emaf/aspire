@@ -1,4 +1,4 @@
-hash=82b3472b91ee41c2f4f40258ca026948b8535fc6e498b39a66e599e4056c664c
+hash=7ad4fca86b2cc829ab36cb8ff16a7b62a93d41f9d2ecce4dc2dbd603eb122a74
 version=2
 
 # This file caches language service data to improve the performance of C# Dev Kit.
@@ -34,6 +34,7 @@ TargetFrameworkIdentifier=.NETCoreApp
 /debug:embedded
 /delaysign-
 /filealign:512
+/keyfile:<NUGET>/microsoft.dotnet.arcade.sdk/10.0.0-beta.26208.4/tools/snk/Open.snk
 /optimize-
 /target:library
 /warnaserror+
@@ -48,16 +49,12 @@ TargetFrameworkIdentifier=.NETCoreApp
 AspireAzureNpgsqlExtensions.cs
 AzureNpgsqlSettings.cs
 
-[analyzerReferences]
-<NETSDK>/Sdks/Microsoft.NET.Sdk/
- analyzers/
-  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
-  Microsoft.CodeAnalysis.NetAnalyzers.dll
- codestyle/cs/
-  Microsoft.CodeAnalysis.CodeStyle.dll
-  Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
-  Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
-  Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
+[sdkAnalyzerPacks]
+Microsoft.NET.ILLink.Tasks
+
+[sdkAnalyzerConfigPolicy]
+Microsoft.NET.Sdk/analyzers
+Microsoft.NET.Sdk/codestyle/cs
 
 [projectReferences]
 ../
@@ -81,7 +78,6 @@ TargetFramework=net10.0
 
 [properties]
 MaxSupportedLangVersion=14.0
-OutputPath=<PATH>../../../artifacts/bin/Aspire.Azure.Npgsql/Debug/net10.0/
 TargetFramework=net10.0
 TargetPath=<PATH>../../../artifacts/bin/Aspire.Azure.Npgsql/Debug/net10.0/Aspire.Azure.Npgsql.dll
 TargetRefPath=<PATH>../../../artifacts/obj/Aspire.Azure.Npgsql/Debug/net10.0/ref/Aspire.Azure.Npgsql.dll
@@ -99,6 +95,7 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 ../
  ../
   ../artifacts/obj/Aspire.Azure.Npgsql/Debug/net10.0/
+   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
    Aspire.Azure.Npgsql.AssemblyInfo.cs
    Aspire.Azure.Npgsql.GlobalUsings.g.cs
   Shared/AzureCredentialHelper.cs
@@ -106,11 +103,177 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
  Common/ManagedIdentityTokenCredentialHelpers.cs
   @link=ManagedIdentityTokenCredentialHelpers.cs
 
-[frameworkPacks]
-Microsoft.NETCore.App.Ref
-
 [metadataReferences]
-../../../artifacts/bin/Aspire.Npgsql/Debug/net10.0/Aspire.Npgsql.dll
+../../../
+ .dotnet/packs/Microsoft.NETCore.App.Ref/10.0.5/ref/net10.0/
+  Microsoft.CSharp.dll
+  Microsoft.VisualBasic.Core.dll
+  Microsoft.VisualBasic.dll
+  Microsoft.Win32.Primitives.dll
+  Microsoft.Win32.Registry.dll
+  mscorlib.dll
+  netstandard.dll
+  System.AppContext.dll
+  System.Buffers.dll
+  System.Collections.Concurrent.dll
+  System.Collections.dll
+  System.Collections.Immutable.dll
+  System.Collections.NonGeneric.dll
+  System.Collections.Specialized.dll
+  System.ComponentModel.Annotations.dll
+  System.ComponentModel.DataAnnotations.dll
+  System.ComponentModel.dll
+  System.ComponentModel.EventBasedAsync.dll
+  System.ComponentModel.Primitives.dll
+  System.ComponentModel.TypeConverter.dll
+  System.Configuration.dll
+  System.Console.dll
+  System.Core.dll
+  System.Data.Common.dll
+  System.Data.DataSetExtensions.dll
+  System.Data.dll
+  System.Diagnostics.Contracts.dll
+  System.Diagnostics.Debug.dll
+  System.Diagnostics.DiagnosticSource.dll
+  System.Diagnostics.FileVersionInfo.dll
+  System.Diagnostics.Process.dll
+  System.Diagnostics.StackTrace.dll
+  System.Diagnostics.TextWriterTraceListener.dll
+  System.Diagnostics.Tools.dll
+  System.Diagnostics.TraceSource.dll
+  System.Diagnostics.Tracing.dll
+  System.dll
+  System.Drawing.dll
+  System.Drawing.Primitives.dll
+  System.Dynamic.Runtime.dll
+  System.Formats.Asn1.dll
+  System.Formats.Tar.dll
+  System.Globalization.Calendars.dll
+  System.Globalization.dll
+  System.Globalization.Extensions.dll
+  System.IO.Compression.Brotli.dll
+  System.IO.Compression.dll
+  System.IO.Compression.FileSystem.dll
+  System.IO.Compression.ZipFile.dll
+  System.IO.dll
+  System.IO.FileSystem.AccessControl.dll
+  System.IO.FileSystem.dll
+  System.IO.FileSystem.DriveInfo.dll
+  System.IO.FileSystem.Primitives.dll
+  System.IO.FileSystem.Watcher.dll
+  System.IO.IsolatedStorage.dll
+  System.IO.MemoryMappedFiles.dll
+  System.IO.Pipelines.dll
+  System.IO.Pipes.AccessControl.dll
+  System.IO.Pipes.dll
+  System.IO.UnmanagedMemoryStream.dll
+  System.Linq.AsyncEnumerable.dll
+  System.Linq.dll
+  System.Linq.Expressions.dll
+  System.Linq.Parallel.dll
+  System.Linq.Queryable.dll
+  System.Memory.dll
+  System.Net.dll
+  System.Net.Http.dll
+  System.Net.Http.Json.dll
+  System.Net.HttpListener.dll
+  System.Net.Mail.dll
+  System.Net.NameResolution.dll
+  System.Net.NetworkInformation.dll
+  System.Net.Ping.dll
+  System.Net.Primitives.dll
+  System.Net.Quic.dll
+  System.Net.Requests.dll
+  System.Net.Security.dll
+  System.Net.ServerSentEvents.dll
+  System.Net.ServicePoint.dll
+  System.Net.Sockets.dll
+  System.Net.WebClient.dll
+  System.Net.WebHeaderCollection.dll
+  System.Net.WebProxy.dll
+  System.Net.WebSockets.Client.dll
+  System.Net.WebSockets.dll
+  System.Numerics.dll
+  System.Numerics.Vectors.dll
+  System.ObjectModel.dll
+  System.Reflection.DispatchProxy.dll
+  System.Reflection.dll
+  System.Reflection.Emit.dll
+  System.Reflection.Emit.ILGeneration.dll
+  System.Reflection.Emit.Lightweight.dll
+  System.Reflection.Extensions.dll
+  System.Reflection.Metadata.dll
+  System.Reflection.Primitives.dll
+  System.Reflection.TypeExtensions.dll
+  System.Resources.Reader.dll
+  System.Resources.ResourceManager.dll
+  System.Resources.Writer.dll
+  System.Runtime.CompilerServices.Unsafe.dll
+  System.Runtime.CompilerServices.VisualC.dll
+  System.Runtime.dll
+  System.Runtime.Extensions.dll
+  System.Runtime.Handles.dll
+  System.Runtime.InteropServices.dll
+  System.Runtime.InteropServices.JavaScript.dll
+  System.Runtime.InteropServices.RuntimeInformation.dll
+  System.Runtime.Intrinsics.dll
+  System.Runtime.Loader.dll
+  System.Runtime.Numerics.dll
+  System.Runtime.Serialization.dll
+  System.Runtime.Serialization.Formatters.dll
+  System.Runtime.Serialization.Json.dll
+  System.Runtime.Serialization.Primitives.dll
+  System.Runtime.Serialization.Xml.dll
+  System.Security.AccessControl.dll
+  System.Security.Claims.dll
+  System.Security.Cryptography.Algorithms.dll
+  System.Security.Cryptography.Cng.dll
+  System.Security.Cryptography.Csp.dll
+  System.Security.Cryptography.dll
+  System.Security.Cryptography.Encoding.dll
+  System.Security.Cryptography.OpenSsl.dll
+  System.Security.Cryptography.Primitives.dll
+  System.Security.Cryptography.X509Certificates.dll
+  System.Security.dll
+  System.Security.Principal.dll
+  System.Security.Principal.Windows.dll
+  System.Security.SecureString.dll
+  System.ServiceModel.Web.dll
+  System.ServiceProcess.dll
+  System.Text.Encoding.CodePages.dll
+  System.Text.Encoding.dll
+  System.Text.Encoding.Extensions.dll
+  System.Text.Encodings.Web.dll
+  System.Text.Json.dll
+  System.Text.RegularExpressions.dll
+  System.Threading.AccessControl.dll
+  System.Threading.Channels.dll
+  System.Threading.dll
+  System.Threading.Overlapped.dll
+  System.Threading.Tasks.Dataflow.dll
+  System.Threading.Tasks.dll
+  System.Threading.Tasks.Extensions.dll
+  System.Threading.Tasks.Parallel.dll
+  System.Threading.Thread.dll
+  System.Threading.ThreadPool.dll
+  System.Threading.Timer.dll
+  System.Transactions.dll
+  System.Transactions.Local.dll
+  System.ValueTuple.dll
+  System.Web.dll
+  System.Web.HttpUtility.dll
+  System.Windows.dll
+  System.Xml.dll
+  System.Xml.Linq.dll
+  System.Xml.ReaderWriter.dll
+  System.Xml.Serialization.dll
+  System.Xml.XDocument.dll
+  System.Xml.XmlDocument.dll
+  System.Xml.XmlSerializer.dll
+  System.Xml.XPath.dll
+  System.Xml.XPath.XDocument.dll
+  WindowsBase.dll
+ artifacts/obj/Aspire.Npgsql/Debug/net10.0/ref/Aspire.Npgsql.dll
 <NUGET>/
  aspnetcore.healthchecks.npgsql/9.0.0/lib/net8.0/HealthChecks.NpgSql.dll
  azure.core/1.53.0/lib/net10.0/Azure.Core.dll
@@ -148,20 +311,34 @@ Microsoft.NETCore.App.Ref
  system.security.cryptography.protecteddata/4.5.0/ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 
 [analyzerReferences]
+../../../.dotnet/
+ packs/Microsoft.NETCore.App.Ref/10.0.5/analyzers/dotnet/cs/
+  Microsoft.Interop.ComInterfaceGenerator.dll
+  Microsoft.Interop.JavaScript.JSImportGenerator.dll
+  Microsoft.Interop.LibraryImportGenerator.dll
+  Microsoft.Interop.SourceGeneration.dll
+  System.Text.Json.SourceGeneration.dll
+  System.Text.RegularExpressions.Generator.dll
+ sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+  analyzers/
+   Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+   Microsoft.CodeAnalysis.NetAnalyzers.dll
+  codestyle/cs/
+   Microsoft.CodeAnalysis.CodeStyle.dll
+   Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+   Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
 <NUGET>/
  microsoft.extensions.configuration.binder/10.0.7/analyzers/dotnet/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll
  microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
  microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
- microsoft.net.illink.tasks/10.0.5/analyzers/dotnet/cs/
-  ILLink.CodeFixProvider.dll
-  ILLink.RoslynAnalyzer.dll
  system.clientmodel/1.10.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
 
 [analyzerConfigFiles]
 ../../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_10_default.globalconfig
  artifacts/obj/Aspire.Azure.Npgsql/Debug/net10.0/Aspire.Azure.Npgsql.GeneratedMSBuildEditorConfig.editorconfig
  .editorconfig
-<NETSDK>/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_10_default.globalconfig
 
 ---
 
@@ -174,7 +351,6 @@ TargetFramework=net8.0
 
 [properties]
 MaxSupportedLangVersion=12.0
-OutputPath=<PATH>../../../artifacts/bin/Aspire.Azure.Npgsql/Debug/net8.0/
 TargetFramework=net8.0
 TargetPath=<PATH>../../../artifacts/bin/Aspire.Azure.Npgsql/Debug/net8.0/Aspire.Azure.Npgsql.dll
 TargetRefPath=<PATH>../../../artifacts/obj/Aspire.Azure.Npgsql/Debug/net8.0/ref/Aspire.Azure.Npgsql.dll
@@ -192,6 +368,7 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 ../
  ../
   ../artifacts/obj/Aspire.Azure.Npgsql/Debug/net8.0/
+   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
    Aspire.Azure.Npgsql.AssemblyInfo.cs
    Aspire.Azure.Npgsql.GlobalUsings.g.cs
   Shared/AzureCredentialHelper.cs
@@ -199,8 +376,11 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
  Common/ManagedIdentityTokenCredentialHelpers.cs
   @link=ManagedIdentityTokenCredentialHelpers.cs
 
+[nugetFrameworkPacks]
+Microsoft.NETCore.App.Ref
+
 [metadataReferences]
-../../../artifacts/bin/Aspire.Npgsql/Debug/net8.0/Aspire.Npgsql.dll
+../../../artifacts/obj/Aspire.Npgsql/Debug/net8.0/ref/Aspire.Npgsql.dll
 <NUGET>/
  aspnetcore.healthchecks.npgsql/9.0.0/lib/net8.0/HealthChecks.NpgSql.dll
  azure.core/1.53.0/lib/net8.0/Azure.Core.dll
@@ -226,167 +406,6 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
  microsoft.identity.client.extensions.msal/4.83.1/lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
  microsoft.identity.client/4.83.1/lib/net8.0/Microsoft.Identity.Client.dll
  microsoft.identitymodel.abstractions/8.14.0/lib/net8.0/Microsoft.IdentityModel.Abstractions.dll
- microsoft.netcore.app.ref/8.0.25/ref/net8.0/
-  Microsoft.CSharp.dll
-  Microsoft.VisualBasic.Core.dll
-  Microsoft.VisualBasic.dll
-  Microsoft.Win32.Primitives.dll
-  Microsoft.Win32.Registry.dll
-  mscorlib.dll
-  netstandard.dll
-  System.AppContext.dll
-  System.Buffers.dll
-  System.Collections.Concurrent.dll
-  System.Collections.dll
-  System.Collections.Immutable.dll
-  System.Collections.NonGeneric.dll
-  System.Collections.Specialized.dll
-  System.ComponentModel.Annotations.dll
-  System.ComponentModel.DataAnnotations.dll
-  System.ComponentModel.dll
-  System.ComponentModel.EventBasedAsync.dll
-  System.ComponentModel.Primitives.dll
-  System.ComponentModel.TypeConverter.dll
-  System.Configuration.dll
-  System.Console.dll
-  System.Core.dll
-  System.Data.Common.dll
-  System.Data.DataSetExtensions.dll
-  System.Data.dll
-  System.Diagnostics.Contracts.dll
-  System.Diagnostics.Debug.dll
-  System.Diagnostics.FileVersionInfo.dll
-  System.Diagnostics.Process.dll
-  System.Diagnostics.StackTrace.dll
-  System.Diagnostics.TextWriterTraceListener.dll
-  System.Diagnostics.Tools.dll
-  System.Diagnostics.TraceSource.dll
-  System.Diagnostics.Tracing.dll
-  System.dll
-  System.Drawing.dll
-  System.Drawing.Primitives.dll
-  System.Dynamic.Runtime.dll
-  System.Formats.Asn1.dll
-  System.Formats.Tar.dll
-  System.Globalization.Calendars.dll
-  System.Globalization.dll
-  System.Globalization.Extensions.dll
-  System.IO.Compression.Brotli.dll
-  System.IO.Compression.dll
-  System.IO.Compression.FileSystem.dll
-  System.IO.Compression.ZipFile.dll
-  System.IO.dll
-  System.IO.FileSystem.AccessControl.dll
-  System.IO.FileSystem.dll
-  System.IO.FileSystem.DriveInfo.dll
-  System.IO.FileSystem.Primitives.dll
-  System.IO.FileSystem.Watcher.dll
-  System.IO.IsolatedStorage.dll
-  System.IO.MemoryMappedFiles.dll
-  System.IO.Pipes.AccessControl.dll
-  System.IO.Pipes.dll
-  System.IO.UnmanagedMemoryStream.dll
-  System.Linq.dll
-  System.Linq.Expressions.dll
-  System.Linq.Parallel.dll
-  System.Linq.Queryable.dll
-  System.Memory.dll
-  System.Net.dll
-  System.Net.Http.dll
-  System.Net.Http.Json.dll
-  System.Net.HttpListener.dll
-  System.Net.Mail.dll
-  System.Net.NameResolution.dll
-  System.Net.NetworkInformation.dll
-  System.Net.Ping.dll
-  System.Net.Primitives.dll
-  System.Net.Quic.dll
-  System.Net.Requests.dll
-  System.Net.Security.dll
-  System.Net.ServicePoint.dll
-  System.Net.Sockets.dll
-  System.Net.WebClient.dll
-  System.Net.WebHeaderCollection.dll
-  System.Net.WebProxy.dll
-  System.Net.WebSockets.Client.dll
-  System.Net.WebSockets.dll
-  System.Numerics.dll
-  System.Numerics.Vectors.dll
-  System.ObjectModel.dll
-  System.Reflection.DispatchProxy.dll
-  System.Reflection.dll
-  System.Reflection.Emit.dll
-  System.Reflection.Emit.ILGeneration.dll
-  System.Reflection.Emit.Lightweight.dll
-  System.Reflection.Extensions.dll
-  System.Reflection.Metadata.dll
-  System.Reflection.Primitives.dll
-  System.Reflection.TypeExtensions.dll
-  System.Resources.Reader.dll
-  System.Resources.ResourceManager.dll
-  System.Resources.Writer.dll
-  System.Runtime.CompilerServices.Unsafe.dll
-  System.Runtime.CompilerServices.VisualC.dll
-  System.Runtime.dll
-  System.Runtime.Extensions.dll
-  System.Runtime.Handles.dll
-  System.Runtime.InteropServices.dll
-  System.Runtime.InteropServices.JavaScript.dll
-  System.Runtime.InteropServices.RuntimeInformation.dll
-  System.Runtime.Intrinsics.dll
-  System.Runtime.Loader.dll
-  System.Runtime.Numerics.dll
-  System.Runtime.Serialization.dll
-  System.Runtime.Serialization.Formatters.dll
-  System.Runtime.Serialization.Json.dll
-  System.Runtime.Serialization.Primitives.dll
-  System.Runtime.Serialization.Xml.dll
-  System.Security.AccessControl.dll
-  System.Security.Claims.dll
-  System.Security.Cryptography.Algorithms.dll
-  System.Security.Cryptography.Cng.dll
-  System.Security.Cryptography.Csp.dll
-  System.Security.Cryptography.dll
-  System.Security.Cryptography.Encoding.dll
-  System.Security.Cryptography.OpenSsl.dll
-  System.Security.Cryptography.Primitives.dll
-  System.Security.Cryptography.X509Certificates.dll
-  System.Security.dll
-  System.Security.Principal.dll
-  System.Security.Principal.Windows.dll
-  System.Security.SecureString.dll
-  System.ServiceModel.Web.dll
-  System.ServiceProcess.dll
-  System.Text.Encoding.CodePages.dll
-  System.Text.Encoding.dll
-  System.Text.Encoding.Extensions.dll
-  System.Text.RegularExpressions.dll
-  System.Threading.Channels.dll
-  System.Threading.dll
-  System.Threading.Overlapped.dll
-  System.Threading.Tasks.Dataflow.dll
-  System.Threading.Tasks.dll
-  System.Threading.Tasks.Extensions.dll
-  System.Threading.Tasks.Parallel.dll
-  System.Threading.Thread.dll
-  System.Threading.ThreadPool.dll
-  System.Threading.Timer.dll
-  System.Transactions.dll
-  System.Transactions.Local.dll
-  System.ValueTuple.dll
-  System.Web.dll
-  System.Web.HttpUtility.dll
-  System.Windows.dll
-  System.Xml.dll
-  System.Xml.Linq.dll
-  System.Xml.ReaderWriter.dll
-  System.Xml.Serialization.dll
-  System.Xml.XDocument.dll
-  System.Xml.XmlDocument.dll
-  System.Xml.XmlSerializer.dll
-  System.Xml.XPath.dll
-  System.Xml.XPath.XDocument.dll
-  WindowsBase.dll
  npgsql.dependencyinjection/10.0.1/lib/net8.0/Npgsql.DependencyInjection.dll
  npgsql.opentelemetry/10.0.1/lib/net8.0/Npgsql.OpenTelemetry.dll
  npgsql/10.0.1/lib/net8.0/Npgsql.dll
@@ -403,27 +422,27 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
  system.text.json/10.0.7/lib/net8.0/System.Text.Json.dll
 
 [analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+ analyzers/
+  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+  Microsoft.CodeAnalysis.NetAnalyzers.dll
+ codestyle/cs/
+  Microsoft.CodeAnalysis.CodeStyle.dll
+  Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
 <NUGET>/
  microsoft.extensions.configuration.binder/10.0.7/analyzers/dotnet/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll
  microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
  microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
- microsoft.net.illink.tasks/8.0.25/analyzers/dotnet/cs/
-  ILLink.CodeFixProvider.dll
-  ILLink.RoslynAnalyzer.dll
- microsoft.netcore.app.ref/8.0.25/analyzers/dotnet/cs/
-  Microsoft.Interop.ComInterfaceGenerator.dll
-  Microsoft.Interop.JavaScript.JSImportGenerator.dll
-  Microsoft.Interop.LibraryImportGenerator.dll
-  Microsoft.Interop.SourceGeneration.dll
-  System.Text.RegularExpressions.Generator.dll
  system.clientmodel/1.10.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
  system.text.json/10.0.7/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
 
 [analyzerConfigFiles]
 ../../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
  artifacts/obj/Aspire.Azure.Npgsql/Debug/net8.0/Aspire.Azure.Npgsql.GeneratedMSBuildEditorConfig.editorconfig
  .editorconfig
-<NETSDK>/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
 
 ---
 
@@ -435,7 +454,6 @@ TargetFramework=net9.0
 
 [properties]
 MaxSupportedLangVersion=13.0
-OutputPath=<PATH>../../../artifacts/bin/Aspire.Azure.Npgsql/Debug/net9.0/
 TargetFramework=net9.0
 TargetPath=<PATH>../../../artifacts/bin/Aspire.Azure.Npgsql/Debug/net9.0/Aspire.Azure.Npgsql.dll
 TargetRefPath=<PATH>../../../artifacts/obj/Aspire.Azure.Npgsql/Debug/net9.0/ref/Aspire.Azure.Npgsql.dll
@@ -453,6 +471,7 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 ../
  ../
   ../artifacts/obj/Aspire.Azure.Npgsql/Debug/net9.0/
+   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
    Aspire.Azure.Npgsql.AssemblyInfo.cs
    Aspire.Azure.Npgsql.GlobalUsings.g.cs
   Shared/AzureCredentialHelper.cs
@@ -460,8 +479,11 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
  Common/ManagedIdentityTokenCredentialHelpers.cs
   @link=ManagedIdentityTokenCredentialHelpers.cs
 
+[nugetFrameworkPacks]
+Microsoft.NETCore.App.Ref
+
 [metadataReferences]
-../../../artifacts/bin/Aspire.Npgsql/Debug/net9.0/Aspire.Npgsql.dll
+../../../artifacts/obj/Aspire.Npgsql/Debug/net9.0/ref/Aspire.Npgsql.dll
 <NUGET>/
  aspnetcore.healthchecks.npgsql/9.0.0/lib/net8.0/HealthChecks.NpgSql.dll
  azure.core/1.53.0/lib/net8.0/Azure.Core.dll
@@ -487,167 +509,6 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
  microsoft.identity.client.extensions.msal/4.83.1/lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
  microsoft.identity.client/4.83.1/lib/net8.0/Microsoft.Identity.Client.dll
  microsoft.identitymodel.abstractions/8.14.0/lib/net9.0/Microsoft.IdentityModel.Abstractions.dll
- microsoft.netcore.app.ref/9.0.14/ref/net9.0/
-  Microsoft.CSharp.dll
-  Microsoft.VisualBasic.Core.dll
-  Microsoft.VisualBasic.dll
-  Microsoft.Win32.Primitives.dll
-  Microsoft.Win32.Registry.dll
-  mscorlib.dll
-  netstandard.dll
-  System.AppContext.dll
-  System.Buffers.dll
-  System.Collections.Concurrent.dll
-  System.Collections.dll
-  System.Collections.Immutable.dll
-  System.Collections.NonGeneric.dll
-  System.Collections.Specialized.dll
-  System.ComponentModel.Annotations.dll
-  System.ComponentModel.DataAnnotations.dll
-  System.ComponentModel.dll
-  System.ComponentModel.EventBasedAsync.dll
-  System.ComponentModel.Primitives.dll
-  System.ComponentModel.TypeConverter.dll
-  System.Configuration.dll
-  System.Console.dll
-  System.Core.dll
-  System.Data.Common.dll
-  System.Data.DataSetExtensions.dll
-  System.Data.dll
-  System.Diagnostics.Contracts.dll
-  System.Diagnostics.Debug.dll
-  System.Diagnostics.FileVersionInfo.dll
-  System.Diagnostics.Process.dll
-  System.Diagnostics.StackTrace.dll
-  System.Diagnostics.TextWriterTraceListener.dll
-  System.Diagnostics.Tools.dll
-  System.Diagnostics.TraceSource.dll
-  System.Diagnostics.Tracing.dll
-  System.dll
-  System.Drawing.dll
-  System.Drawing.Primitives.dll
-  System.Dynamic.Runtime.dll
-  System.Formats.Asn1.dll
-  System.Formats.Tar.dll
-  System.Globalization.Calendars.dll
-  System.Globalization.dll
-  System.Globalization.Extensions.dll
-  System.IO.Compression.Brotli.dll
-  System.IO.Compression.dll
-  System.IO.Compression.FileSystem.dll
-  System.IO.Compression.ZipFile.dll
-  System.IO.dll
-  System.IO.FileSystem.AccessControl.dll
-  System.IO.FileSystem.dll
-  System.IO.FileSystem.DriveInfo.dll
-  System.IO.FileSystem.Primitives.dll
-  System.IO.FileSystem.Watcher.dll
-  System.IO.IsolatedStorage.dll
-  System.IO.MemoryMappedFiles.dll
-  System.IO.Pipes.AccessControl.dll
-  System.IO.Pipes.dll
-  System.IO.UnmanagedMemoryStream.dll
-  System.Linq.dll
-  System.Linq.Expressions.dll
-  System.Linq.Parallel.dll
-  System.Linq.Queryable.dll
-  System.Memory.dll
-  System.Net.dll
-  System.Net.Http.dll
-  System.Net.Http.Json.dll
-  System.Net.HttpListener.dll
-  System.Net.Mail.dll
-  System.Net.NameResolution.dll
-  System.Net.NetworkInformation.dll
-  System.Net.Ping.dll
-  System.Net.Primitives.dll
-  System.Net.Quic.dll
-  System.Net.Requests.dll
-  System.Net.Security.dll
-  System.Net.ServicePoint.dll
-  System.Net.Sockets.dll
-  System.Net.WebClient.dll
-  System.Net.WebHeaderCollection.dll
-  System.Net.WebProxy.dll
-  System.Net.WebSockets.Client.dll
-  System.Net.WebSockets.dll
-  System.Numerics.dll
-  System.Numerics.Vectors.dll
-  System.ObjectModel.dll
-  System.Reflection.DispatchProxy.dll
-  System.Reflection.dll
-  System.Reflection.Emit.dll
-  System.Reflection.Emit.ILGeneration.dll
-  System.Reflection.Emit.Lightweight.dll
-  System.Reflection.Extensions.dll
-  System.Reflection.Metadata.dll
-  System.Reflection.Primitives.dll
-  System.Reflection.TypeExtensions.dll
-  System.Resources.Reader.dll
-  System.Resources.ResourceManager.dll
-  System.Resources.Writer.dll
-  System.Runtime.CompilerServices.Unsafe.dll
-  System.Runtime.CompilerServices.VisualC.dll
-  System.Runtime.dll
-  System.Runtime.Extensions.dll
-  System.Runtime.Handles.dll
-  System.Runtime.InteropServices.dll
-  System.Runtime.InteropServices.JavaScript.dll
-  System.Runtime.InteropServices.RuntimeInformation.dll
-  System.Runtime.Intrinsics.dll
-  System.Runtime.Loader.dll
-  System.Runtime.Numerics.dll
-  System.Runtime.Serialization.dll
-  System.Runtime.Serialization.Formatters.dll
-  System.Runtime.Serialization.Json.dll
-  System.Runtime.Serialization.Primitives.dll
-  System.Runtime.Serialization.Xml.dll
-  System.Security.AccessControl.dll
-  System.Security.Claims.dll
-  System.Security.Cryptography.Algorithms.dll
-  System.Security.Cryptography.Cng.dll
-  System.Security.Cryptography.Csp.dll
-  System.Security.Cryptography.dll
-  System.Security.Cryptography.Encoding.dll
-  System.Security.Cryptography.OpenSsl.dll
-  System.Security.Cryptography.Primitives.dll
-  System.Security.Cryptography.X509Certificates.dll
-  System.Security.dll
-  System.Security.Principal.dll
-  System.Security.Principal.Windows.dll
-  System.Security.SecureString.dll
-  System.ServiceModel.Web.dll
-  System.ServiceProcess.dll
-  System.Text.Encoding.CodePages.dll
-  System.Text.Encoding.dll
-  System.Text.Encoding.Extensions.dll
-  System.Text.RegularExpressions.dll
-  System.Threading.Channels.dll
-  System.Threading.dll
-  System.Threading.Overlapped.dll
-  System.Threading.Tasks.Dataflow.dll
-  System.Threading.Tasks.dll
-  System.Threading.Tasks.Extensions.dll
-  System.Threading.Tasks.Parallel.dll
-  System.Threading.Thread.dll
-  System.Threading.ThreadPool.dll
-  System.Threading.Timer.dll
-  System.Transactions.dll
-  System.Transactions.Local.dll
-  System.ValueTuple.dll
-  System.Web.dll
-  System.Web.HttpUtility.dll
-  System.Windows.dll
-  System.Xml.dll
-  System.Xml.Linq.dll
-  System.Xml.ReaderWriter.dll
-  System.Xml.Serialization.dll
-  System.Xml.XDocument.dll
-  System.Xml.XmlDocument.dll
-  System.Xml.XmlSerializer.dll
-  System.Xml.XPath.dll
-  System.Xml.XPath.XDocument.dll
-  WindowsBase.dll
  npgsql.dependencyinjection/10.0.1/lib/net8.0/Npgsql.DependencyInjection.dll
  npgsql.opentelemetry/10.0.1/lib/net8.0/Npgsql.OpenTelemetry.dll
  npgsql/10.0.1/lib/net9.0/Npgsql.dll
@@ -664,24 +525,24 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
  system.text.json/10.0.7/lib/net9.0/System.Text.Json.dll
 
 [analyzerReferences]
+../../../.dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/
+ analyzers/
+  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+  Microsoft.CodeAnalysis.NetAnalyzers.dll
+ codestyle/cs/
+  Microsoft.CodeAnalysis.CodeStyle.dll
+  Microsoft.CodeAnalysis.CodeStyle.Fixes.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.dll
+  Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll
 <NUGET>/
  microsoft.extensions.configuration.binder/10.0.7/analyzers/dotnet/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll
  microsoft.extensions.logging.abstractions/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
  microsoft.extensions.options/10.0.7/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll
- microsoft.net.illink.tasks/9.0.14/analyzers/dotnet/cs/
-  ILLink.CodeFixProvider.dll
-  ILLink.RoslynAnalyzer.dll
- microsoft.netcore.app.ref/9.0.14/analyzers/dotnet/cs/
-  Microsoft.Interop.ComInterfaceGenerator.dll
-  Microsoft.Interop.JavaScript.JSImportGenerator.dll
-  Microsoft.Interop.LibraryImportGenerator.dll
-  Microsoft.Interop.SourceGeneration.dll
-  System.Text.RegularExpressions.Generator.dll
  system.clientmodel/1.10.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
  system.text.json/10.0.7/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
 
 [analyzerConfigFiles]
 ../../../
+ .dotnet/sdk/10.0.201/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
  artifacts/obj/Aspire.Azure.Npgsql/Debug/net9.0/Aspire.Azure.Npgsql.GeneratedMSBuildEditorConfig.editorconfig
  .editorconfig
-<NETSDK>/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
